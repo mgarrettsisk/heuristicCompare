@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioMenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment01.mainController">
+   <right>
+      <VBox BorderPane.alignment="CENTER" />
+   </right>
+   <left>
+      <VBox BorderPane.alignment="CENTER" />
+   </left>
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem fx:id="closeMenuButton" mnemonicParsing="false" onAction="#closeProgram" text="Close" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Actions">
+              <items>
+                <MenuItem fx:id="generateMazeMenuButton" mnemonicParsing="false" onAction="#generateMaze" text="Generate Maze" />
+                  <MenuItem fx:id="setStartFinishMenuButton" mnemonicParsing="false" onAction="#setStartFinishCells" text="Set Start and Finish" />
+                  <MenuItem fx:id="solveMazeMenuButton" mnemonicParsing="false" onAction="#solveMaze" text="Solve Maze" />
+                  <MenuItem fx:id="clearMazeMenuButton" mnemonicParsing="false" onAction="#clearMaze" text="Clear Maze" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <Menu mnemonicParsing="false" text="Set Pixel Size">
+                    <items>
+                        <RadioMenuItem fx:id="pixelSize5" mnemonicParsing="false" onAction="#setPixelSize5" text="5">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="pixelSizeGroup" />
+                           </toggleGroup>
+                        </RadioMenuItem>
+                        <RadioMenuItem fx:id="pixelSize10" mnemonicParsing="false" onAction="#setPixelSize10" text="10" toggleGroup="$pixelSizeGroup" />
+                        <RadioMenuItem fx:id="pixelSize20" mnemonicParsing="false" onAction="#setPixelSize20" selected="true" text="20" toggleGroup="$pixelSizeGroup" />
+                    </items>
+                  </Menu>
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem fx:id="aboutMenuButton" mnemonicParsing="false" onAction="#showAbout" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <Canvas fx:id="centerCanvas" height="500.0" width="500.0" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <VBox BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="TOP_CENTER" spacing="5.0">
+               <children>
+                  <Button fx:id="generateMazeButton" mnemonicParsing="false" onAction="#generateMaze" text="Generate Maze" />
+                  <Button fx:id="setStartFinishButton" mnemonicParsing="false" onAction="#setStartFinishCells" text="Set Start and Finish" />
+                  <Button fx:id="solveMazeButton" mnemonicParsing="false" onAction="#solveMaze" text="Solve Maze" />
+                  <Button fx:id="clearMazeButton" mnemonicParsing="false" onAction="#clearMaze" text="Clear Maze" />
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </HBox>
+            <HBox>
+               <children>
+                  <TextField fx:id="dataTextField" editable="false" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="5.0" right="5.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="notificationText" alignment="CENTER_RIGHT" editable="false" text="Must first click &quot;Generate Maze&quot;" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="5.0" right="5.0" />
+                     </HBox.margin></TextField>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </bottom>
+</BorderPane>

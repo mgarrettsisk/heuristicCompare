@@ -1,0 +1,45 @@
+Comparison of Heuristic Search performance using a Maze Solver Agent
+
+
+
+
+DFS (Baseline)
+Random Least-Travelled Heuristic
+Instantaneous Euclidean Distance Heuristic
+Continuous Euclidean Distance Heuristic
+
+
+4 Examples, 4 trials, with 4 results able to be tabulated.
+
+Performance Metric:
+
+Amount of cells in found path, vs amount of cells traversed
+	This is the competitive ratio
+
+In order to run the experiment:
+
+Need to generate 100 mazes, for each maze, generate 50 sets of start/finish pairs
+	For each of these configurations, run the following solvers:
+		DFS (baseline)
+		Random-Walk Heuristic
+		Euclidean Distance
+		Euclidean distance with Look Ahead
+	In each of the above, the following information must be tabulated:
+		For each set of start/finish pairs:
+			Solution Path Length (number of cells)
+			Total number of cells traversed by agents
+
+		
+Maze Number, Start/Finish Number, Solution Path Length, DFS, Random-Walk, Euclidean, Euclidean Look Ahead
+
+
+
+Sections of Paper:
+
+Abstract
+Introduction
+Literature Review
+Implementation Discussion
+Results
+Analysis
+		
