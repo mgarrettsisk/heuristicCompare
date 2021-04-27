@@ -1,4 +1,4 @@
-package assignment01;
+package mainApplication;
 
 import javafx.fxml.Initializable;
 import javafx.scene.canvas.Canvas;
@@ -9,6 +9,11 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -25,6 +30,7 @@ public class mainController implements Initializable {
     public Button clearMazeButton;
     public Button solveMazeButton;
     public Button setStartFinishButton;
+    public Button batchTestButton;
     public MenuItem generateMazeMenuButton;
     public MenuItem clearMazeMenuButton;
     public MenuItem solveMazeMenuButton;
@@ -226,6 +232,15 @@ public class mainController implements Initializable {
         clearMaze();
         //drawGrid(canvasGc);
     }
+    public void printResults() {
+        // method that calls the function to write a CSV file
+        try {
+            writeResultsToFile();
+        } catch (IOException ex) {
+            System.out.println("The File Writer Did Not Work");
+        }
+
+    }
     // Private Methods
     private void updateNotificationArea(String notification) {
         // this method takes a string as input and displays it in the notification text field
@@ -373,6 +388,22 @@ public class mainController implements Initializable {
         }
         // Write the actual "pixel" to the canvas
         contextInput.fillRect(canvasXcoord,canvasYcoord,pixelWidth,pixelHeight);
+    }
+
+    private void writeResultsToFile() throws IOException {
+        // this method writes a text file with the contents of the notification boxes
+        try {
+            File outputFile = new File("/users/mgarrettsisk/Development/exampleCSV.csv");
+            FileWriter writer = new FileWriter(outputFile);
+            writer.write(dataTextField.getText());
+            writer.write(",");
+            writer.write(notificationText.getText());
+            writer.write("\n");
+            writer.write("Written from JavaFX Application");
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
 

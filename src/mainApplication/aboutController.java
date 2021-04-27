@@ -1,4 +1,4 @@
-package assignment01;
+package mainApplication;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

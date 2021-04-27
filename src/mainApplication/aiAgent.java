@@ -1,4 +1,4 @@
-package assignment01;
+package mainApplication;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -43,6 +43,16 @@ public class aiAgent {
                 //System.out.println("Stack size increased by one. New Size: " + solutionPathStack.size());
             }
         }
+    }
+    public void lookAheadSolve() {
+        // this method uses the look ahead addition to the heuristic to solve the maze
+        miniAgent upAgent = new miniAgent(getCurrentCell(),5);
+    }
+    public void dfsSolve() {
+        // this method uses the depth first search to solve the maze
+    }
+    public void randomWalkSolve() {
+        // this method uses the random walk search to solve the maze
     }
 
     public void setGoalCell(gridGraph.cell inputCell) {
@@ -135,6 +145,27 @@ public class aiAgent {
         } else {
             outputCell = inputCellList.get(outputIndex);
             return outputCell;
+        }
+    }
+    public class miniAgent {
+        // this is a mini agent object that is spawned when doing the look ahead
+        private int depthLimit;
+        private gridGraph.cell startCell;
+
+        miniAgent(gridGraph.cell startCell, int depthLimit) {
+            setDepthLimit(depthLimit);
+        }
+        public int getDepthLimit() {
+            return this.depthLimit;
+        }
+        public void setDepthLimit(int input) {
+            this.depthLimit = input;
+        }
+        public gridGraph.cell getStartCell() {
+            return this.startCell;
+        }
+        public void setStartCell(gridGraph.cell inputCell) {
+            this.startCell = inputCell;
         }
     }
 }

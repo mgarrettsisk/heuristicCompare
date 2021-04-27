@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment01.mainController">
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainApplication.mainController">
    <right>
       <VBox BorderPane.alignment="CENTER" />
    </right>
@@ -69,6 +69,14 @@
                   <Button fx:id="setStartFinishButton" mnemonicParsing="false" onAction="#setStartFinishCells" text="Set Start and Finish" />
                   <Button fx:id="solveMazeButton" mnemonicParsing="false" onAction="#solveMaze" text="Solve Maze" />
                   <Button fx:id="clearMazeButton" mnemonicParsing="false" onAction="#clearMaze" text="Clear Maze" />
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="TOP_CENTER" spacing="5.0">
+               <children>
+                  <Button fx:id="batchTestButton" mnemonicParsing="false" onAction="#printResults" text="Run  Full Batch Test" />
                </children>
                <padding>
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />

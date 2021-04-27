@@ -1,0 +1,34 @@
+Heuristic with Look Ahead:
+
+At the current cell
+	1) Determine Possible Moves
+	2) Of the possible moves, deploy an agent that will traverse 5 cells in each direction
+		2.1) Up Move mini agent
+			2.1.1) Determine Possible Moves
+			2.1.2) Move to lowest valued cell (not currentCell)
+			2.1.3) If a dead-end, reverse and try another direction
+			2.1.4) If goal cell reached, return 0
+			2.1.5) Once 5 cells have been traversed, return distance
+		2.2-2.4) Down, Left, Right mini agents
+			Repeat the above, but starting with respective cell
+	3) Once the mini-agent with the lowest value reports back, move to that cell and repeat process
+	4) Continue this until the end state is reached
+
+
+DFS
+
+	1) Determine possible moves
+	2) Move to next squares in the following order: up, right, down, left
+		2.0) Mark Cell as Visited
+		2.1) When a dead-end is reached, move backwards until another move is possible, cells w/ 0 visits take precedence over previously visited cells
+		2.2) Take the next possible move
+		2.3) Repeat
+	3) Repeat the above until a goal state is reached.
+
+
+Random Walk
+	1) Determine possible moves
+	2) Pick a move at random to move to, move to that one
+	3) Repeat until goal state is found
+
+
