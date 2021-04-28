@@ -47,6 +47,26 @@ public class aiAgent {
             }
         }
     }
+    public void dfsSolve() {
+        gridGraph.cell currentCell = this.solutionPathStack.peek();
+        while (!(currentCell.equals(goalCell))) {
+            // determine which cells can be moved to
+            currentCell.visit();
+            determinePossibleMoves(currentCell);
+            if (possibleMoves.isEmpty()) {
+                // if no possible moves at this cell, pop off current cell from stack and repeat for previous cell
+                solutionPathStack.pop();
+                currentCell = solutionPathStack.peek();
+                //System.out.println("Stack size reduced by one. New Size: " + solutionPathStack.size());
+            } else {
+                // else choose the best possible move, and add the new cell to the stack and redo loop
+                currentCell = possibleMoves.get(0);
+                solutionPathStack.push(currentCell);
+                //System.out.println("X: " + currentCell.getX() + "; Y: " + currentCell.getY());
+                //System.out.println("Stack size increased by one. New Size: " + solutionPathStack.size());
+            }
+        }
+    }
     public void euclideanSolve() {
         // this method uses the original heuristic to solve the maze
         this.solveMaze();

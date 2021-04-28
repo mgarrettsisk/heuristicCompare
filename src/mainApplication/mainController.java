@@ -237,19 +237,7 @@ public class mainController implements Initializable {
         //drawGrid(canvasGc);
     }
     //******************************************************************************************************************
-    // THESE METHODS ARE NO CAPABLE OF PRODUCING VISUALS - ONLY USE FOR BATCH TESTING PURPOSES
-    public void dfsSolve() {
-        // this method calls the DFS solver of the AI agent
-    }
-    public void randomWalkSolve() {
-        // this method calls the random walk solver of the AI agent
-    }
-    public void euclideanSolve() {
-        // this method calls the euclidean solver of the AI agent
-    }
-    public void lookAheadSolve() {
-        // this method calls the look ahead solver of the AI agent
-    }
+    // THESE METHODS ARE NOT CAPABLE OF PRODUCING VISUALS - ONLY USE FOR BATCH TESTING PURPOSES
     public void runCompleteTest() {
         int mazeIterationLimit = 100;
         int startFinishIterationLimit = 10;
@@ -260,6 +248,19 @@ public class mainController implements Initializable {
             generateMaze();
             for (int j = 0; j < startFinishIterationLimit; j++) {
                 setStartFinishCells();
+                // run DFS Solver
+                aiAgent dfsSolver = new aiAgent(this.startCell, this.goalCell);
+                dfsSolver.dfsSolve();
+                this.solutionPath = dfsSolver.getSolutionPath();
+                int visitedCells_DFS = graph.getTotalVisits();
+                int pathCells_DFS = solutionPath.size();
+                try {
+                    writeResultsToFile(i,j,"Depth First Search",pathCells_DFS, visitedCells_DFS);
+                } catch (IOException ex) {
+                    ex.printStackTrace();
+                }
+                this.solutionPath.clear();
+                graph.clearVisits();
                 // run Random Walk Solver
                 aiAgent randomSolver = new aiAgent(this.startCell, this.goalCell);
                 randomSolver.randomWalkSolve();
@@ -274,13 +275,13 @@ public class mainController implements Initializable {
                 this.solutionPath.clear();
                 graph.clearVisits();
                 // run Euclidean solver
-                aiAgent dfsSolver = new aiAgent(this.startCell, this.goalCell);
-                dfsSolver.euclideanSolve();
-                this.solutionPath = dfsSolver.getSolutionPath();
-                int visitedCells = graph.getTotalVisits();
-                int pathCells = solutionPath.size();
+                aiAgent euclideanSolver = new aiAgent(this.startCell, this.goalCell);
+                euclideanSolver.euclideanSolve();
+                this.solutionPath = euclideanSolver.getSolutionPath();
+                int visitedCells_Euclidean = graph.getTotalVisits();
+                int pathCells_Euclidean = solutionPath.size();
                 try {
-                    writeResultsToFile(i,j,"Euclidean",pathCells, visitedCells);
+                    writeResultsToFile(i,j,"Euclidean",pathCells_Euclidean, visitedCells_Euclidean);
                 } catch (IOException ex) {
                     ex.printStackTrace();
                 }
@@ -288,7 +289,9 @@ public class mainController implements Initializable {
                 graph.clearVisits();
                 // run Euclidean with Look Ahead Solver
             }
+            updateNotificationArea("Maze Number: " + i);
         }
+
     }
     //******************************************************************************************************************
     // Private Methods
