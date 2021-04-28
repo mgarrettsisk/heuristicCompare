@@ -2,10 +2,12 @@ package mainApplication;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.Random;
 
 public class aiAgent {
     // attributes
     private gridGraph.cell goalCell;
+    private gridGraph.cell startCell;
     private final LinkedList<gridGraph.cell> solutionPathStack = new LinkedList<>();
     private final ArrayList<gridGraph.cell> possibleMoves = new ArrayList<>();
 
@@ -16,6 +18,7 @@ public class aiAgent {
     aiAgent(gridGraph.cell startCell, gridGraph.cell goalCell) {
         // this constructor takes a start cell and goal cell and solves the maze, producing a solutionPath
         // first, push the start cell onto the solutionPathStack list
+        this.startCell = startCell;
         this.solutionPathStack.push(startCell);
         // second, set the goal cell attribute
         this.setGoalCell(goalCell);
@@ -31,9 +34,9 @@ public class aiAgent {
             currentCell.visit();
             determinePossibleMoves(currentCell);
             if (possibleMoves.isEmpty()) {
-                // if no possible moves at this cell, pop off current cell from stack and repeat for previous cell
-                solutionPathStack.pop();
-                currentCell = solutionPathStack.peek();
+                    // if no possible moves at this cell, pop off current cell from stack and repeat for previous cell
+                    solutionPathStack.pop();
+                    currentCell = solutionPathStack.peek();
                 //System.out.println("Stack size reduced by one. New Size: " + solutionPathStack.size());
             } else {
                 // else choose the best possible move, and add the new cell to the stack and redo loop
@@ -44,17 +47,35 @@ public class aiAgent {
             }
         }
     }
+    public void euclideanSolve() {
+        // this method uses the original heuristic to solve the maze
+        this.solveMaze();
+    }
     public void lookAheadSolve() {
         // this method uses the look ahead addition to the heuristic to solve the maze
         miniAgent upAgent = new miniAgent(getCurrentCell(),5);
     }
-    public void dfsSolve() {
-        // this method uses the depth first search to solve the maze
-    }
     public void randomWalkSolve() {
-        // this method uses the random walk search to solve the maze
+        // this method uses the depth first search to solve the maze
+        gridGraph.cell currentCell = this.solutionPathStack.peek();
+        while (!(currentCell.equals(goalCell))) {
+            // determine which cells can be moved to
+            currentCell.visit();
+            determinePossibleMoves(currentCell);
+            if (possibleMoves.isEmpty()) {
+                // if no possible moves at this cell, pop off current cell from stack and repeat for previous cell
+                solutionPathStack.pop();
+                currentCell = solutionPathStack.peek();
+                //System.out.println("Stack size reduced by one. New Size: " + solutionPathStack.size());
+            } else {
+                // else choose the best possible move, and add the new cell to the stack and redo loop
+                currentCell = randomNextMove(possibleMoves);
+                solutionPathStack.push(currentCell);
+                //System.out.println("X: " + currentCell.getX() + "; Y: " + currentCell.getY());
+                //System.out.println("Stack size increased by one. New Size: " + solutionPathStack.size());
+            }
+        }
     }
-
     public void setGoalCell(gridGraph.cell inputCell) {
         // method sets the attribute for the goal cell
         this.goalCell = inputCell;
@@ -114,38 +135,55 @@ public class aiAgent {
             }
         }
     }
+    private void possibleMovesNoMemory(gridGraph.cell inputCell) {
+        this.possibleMoves.clear();
+        // examine each wall and add the neighboring cell to the possible moves list if the wall is a passage
+        if (inputCell.getTopWall().isPassage()) {
+            gridGraph.cell topNeighbor = inputCell.getNeighbors()[0];
+            this.possibleMoves.add(topNeighbor);
+        }
+        if (inputCell.getRightWall().isPassage()) {
+            gridGraph.cell rightNeighbor = inputCell.getNeighbors()[1];
+            this.possibleMoves.add(rightNeighbor);
+        }
+        if (inputCell.getBottomWall().isPassage()) {
+            gridGraph.cell bottomNeighbor = inputCell.getNeighbors()[2];
+            this.possibleMoves.add(bottomNeighbor);
+        }
+        if (inputCell.getLeftWall().isPassage()) {
+            gridGraph.cell leftNeighbor = inputCell.getNeighbors()[3];
+            this.possibleMoves.add(leftNeighbor);
+        }
+    }
     private gridGraph.cell computeBestMove(ArrayList<gridGraph.cell> inputCellList, gridGraph.cell goalCell) {
         // this method takes the current possible moves list, and the goal cell as inputs, and determines which cell
         // should be used next in the path
-        int goalXpos = goalCell.getX();
-        int goalYpos = goalCell.getY();
-        int outputIndex = -1;
-        gridGraph.cell outputCell = null;
-        double shortestDistance = -1.0;
+        int outputIndex = 0;
+        double shortestDistance = euclideanDistance(inputCellList.get(0), goalCell);
         // find the index of the cell with the shortest straight line distance to goal
-        for (int listIndex = 0; listIndex < inputCellList.size(); listIndex++) {
-            // get the current (x,y) coordinates of neighbor cell
-            int currentXpos = inputCellList.get(listIndex).getX();
-            int currentYpos = inputCellList.get(listIndex).getY();
+        for (int listIndex = 1; listIndex < inputCellList.size(); listIndex++) {
             // compute the pythagorean distance between the current cell and the goal cell
-            double radicand = Math.pow((goalXpos - currentXpos),2) + Math.pow((goalYpos - currentYpos),2);
-            double distance = Math.sqrt(radicand);
-            if (shortestDistance == -1.0) {
-                // this is the first cell, and we set the shortest distance as the distance
-                shortestDistance = distance;
-                outputIndex = listIndex;
-            } else if (distance <= shortestDistance) {
-                // the newly computed distance is shorter, so set the shortest distance and the output index
-                shortestDistance = distance;
+            double currentDistance = euclideanDistance(inputCellList.get(listIndex), goalCell);
+            if (currentDistance < shortestDistance) {
+                shortestDistance = currentDistance;
                 outputIndex = listIndex;
             }
         }
-        if (outputIndex == -1) {
-            return null;
-        } else {
-            outputCell = inputCellList.get(outputIndex);
-            return outputCell;
-        }
+        return inputCellList.get(outputIndex);
+    }
+    private gridGraph.cell randomNextMove(ArrayList<gridGraph.cell> inputCellList) {
+        Random rand = new Random();
+        int randomChoice = rand.nextInt(inputCellList.size());
+        return inputCellList.get(randomChoice);
+    }
+    private double euclideanDistance(gridGraph.cell cellOne, gridGraph.cell cellTwo) {
+        // this method takes two cells as input and computes the straight line distance between them
+        int oneXpos = cellOne.getX();
+        int oneYpos = cellOne.getY();
+        int twoXpos = cellOne.getX();
+        int twoYpos = cellOne.getY();
+        double radicand = Math.pow((twoXpos - oneXpos),2) + Math.pow((twoYpos - oneYpos),2);
+        return Math.sqrt(radicand);
     }
     public class miniAgent {
         // this is a mini agent object that is spawned when doing the look ahead

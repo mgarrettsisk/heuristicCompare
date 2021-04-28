@@ -76,7 +76,11 @@
             </HBox>
             <HBox alignment="TOP_CENTER" spacing="5.0">
                <children>
-                  <Button fx:id="batchTestButton" mnemonicParsing="false" onAction="#printResults" text="Run  Full Batch Test" />
+                  <Button fx:id="batchTestButton" mnemonicParsing="false" onAction="#runCompleteTest" text="Run  Full Batch Test" />
+                  <Button fx:id="dfsButton" mnemonicParsing="false" onAction="#dfsSolve" text="DFS Solver" />
+                  <Button fx:id="randomWalkButton" mnemonicParsing="false" onAction="#randomWalkSolve" text="Random Walk" />
+                  <Button fx:id="euclideanButton" mnemonicParsing="false" onAction="#euclideanSolve" text="Euclidean" />
+                  <Button fx:id="lookAheadButton" mnemonicParsing="false" onAction="#lookAheadSolve" text="Euclidean w/ Look Ahead" />
                </children>
                <padding>
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />

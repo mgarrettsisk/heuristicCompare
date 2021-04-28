@@ -31,6 +31,10 @@ public class mainController implements Initializable {
     public Button solveMazeButton;
     public Button setStartFinishButton;
     public Button batchTestButton;
+    public Button dfsButton;
+    public Button randomWalkButton;
+    public Button euclideanButton;
+    public Button lookAheadButton;
     public MenuItem generateMazeMenuButton;
     public MenuItem clearMazeMenuButton;
     public MenuItem solveMazeMenuButton;
@@ -78,7 +82,6 @@ public class mainController implements Initializable {
         Random random = new Random();
         int startCellXpos = random.nextInt(gridHeight);
         gridGraph.cell startCell = graph.getCell((startCellXpos * gridWidth));
-        startCell.visit();
         mazePath.add(startCell);
         addWalls(startCell, wallList);
         // while there are walls left in the list
@@ -177,10 +180,11 @@ public class mainController implements Initializable {
             solveMazeMenuButton.setDisable(true);
             clearMazeButton.setDisable(false);
             clearMazeMenuButton.setDisable(false);
+            updateNotificationArea("Total Visits: " + graph.getTotalVisits());
         } catch (NullPointerException ex) {
+            ex.printStackTrace();
             updateNotificationArea("An error occurred. Clear the maze and start over.");
-            clearMazeButton.setDisable(false);
-            clearMazeMenuButton.setDisable(false);
+            clearMaze();
             solveMazeButton.setDisable(true);
             solveMazeMenuButton.setDisable(true);
         }
@@ -232,15 +236,61 @@ public class mainController implements Initializable {
         clearMaze();
         //drawGrid(canvasGc);
     }
-    public void printResults() {
-        // method that calls the function to write a CSV file
-        try {
-            writeResultsToFile();
-        } catch (IOException ex) {
-            System.out.println("The File Writer Did Not Work");
-        }
-
+    //******************************************************************************************************************
+    // THESE METHODS ARE NO CAPABLE OF PRODUCING VISUALS - ONLY USE FOR BATCH TESTING PURPOSES
+    public void dfsSolve() {
+        // this method calls the DFS solver of the AI agent
     }
+    public void randomWalkSolve() {
+        // this method calls the random walk solver of the AI agent
+    }
+    public void euclideanSolve() {
+        // this method calls the euclidean solver of the AI agent
+    }
+    public void lookAheadSolve() {
+        // this method calls the look ahead solver of the AI agent
+    }
+    public void runCompleteTest() {
+        int mazeIterationLimit = 100;
+        int startFinishIterationLimit = 10;
+        // this method is used to compute comparison data for use in analyzing heuristics
+        // create new maze
+        for (int i = 0; i < mazeIterationLimit; i++) {
+            clearMaze();
+            generateMaze();
+            for (int j = 0; j < startFinishIterationLimit; j++) {
+                setStartFinishCells();
+                // run Random Walk Solver
+                aiAgent randomSolver = new aiAgent(this.startCell, this.goalCell);
+                randomSolver.randomWalkSolve();
+                this.solutionPath = randomSolver.getSolutionPath();
+                int visitedCells_Random = graph.getTotalVisits();
+                int pathCells_Random = solutionPath.size();
+                try {
+                    writeResultsToFile(i,j,"Random Walk",pathCells_Random, visitedCells_Random);
+                } catch (IOException ex) {
+                    ex.printStackTrace();
+                }
+                this.solutionPath.clear();
+                graph.clearVisits();
+                // run Euclidean solver
+                aiAgent dfsSolver = new aiAgent(this.startCell, this.goalCell);
+                dfsSolver.euclideanSolve();
+                this.solutionPath = dfsSolver.getSolutionPath();
+                int visitedCells = graph.getTotalVisits();
+                int pathCells = solutionPath.size();
+                try {
+                    writeResultsToFile(i,j,"Euclidean",pathCells, visitedCells);
+                } catch (IOException ex) {
+                    ex.printStackTrace();
+                }
+                this.solutionPath.clear();
+                graph.clearVisits();
+                // run Euclidean with Look Ahead Solver
+            }
+        }
+    }
+    //******************************************************************************************************************
     // Private Methods
     private void updateNotificationArea(String notification) {
         // this method takes a string as input and displays it in the notification text field
@@ -390,16 +440,16 @@ public class mainController implements Initializable {
         contextInput.fillRect(canvasXcoord,canvasYcoord,pixelWidth,pixelHeight);
     }
 
-    private void writeResultsToFile() throws IOException {
+    private void writeResultsToFile(int mazeNumber, int startNumber, String typeString, int solutionLength,
+                                    int visitedCells) throws IOException {
         // this method writes a text file with the contents of the notification boxes
         try {
-            File outputFile = new File("/users/mgarrettsisk/Development/exampleCSV.csv");
-            FileWriter writer = new FileWriter(outputFile);
-            writer.write(dataTextField.getText());
-            writer.write(",");
-            writer.write(notificationText.getText());
+            File outputFile = new File("results_1000.csv");
+            FileWriter writer = new FileWriter(outputFile,true);
+            String singleEntry = mazeNumber + "," + startNumber + "," + typeString + "," + solutionLength + ","
+                    + visitedCells;
+            writer.write(singleEntry);
             writer.write("\n");
-            writer.write("Written from JavaFX Application");
             writer.close();
         } catch (IOException e) {
             e.printStackTrace();

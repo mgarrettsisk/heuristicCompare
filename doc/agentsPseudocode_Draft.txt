@@ -4,11 +4,11 @@ At the current cell
 	1) Determine Possible Moves
 	2) Of the possible moves, deploy an agent that will traverse 5 cells in each direction
 		2.1) Up Move mini agent
-			2.1.1) Determine Possible Moves
+			2.1.1) Determine Possible Moves from miniAgent initial cell (not including currentCell)
 			2.1.2) Move to lowest valued cell (not currentCell)
 			2.1.3) If a dead-end, reverse and try another direction
 			2.1.4) If goal cell reached, return 0
-			2.1.5) Once 5 cells have been traversed, return distance
+			2.1.5) Once 5 cells have been traversed, return distance as integer
 		2.2-2.4) Down, Left, Right mini agents
 			Repeat the above, but starting with respective cell
 	3) Once the mini-agent with the lowest value reports back, move to that cell and repeat process

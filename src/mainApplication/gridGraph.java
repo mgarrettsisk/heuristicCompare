@@ -30,6 +30,19 @@ public class gridGraph {
         // returns the cardinality of the walls set
         return walls.size();
     }
+    public int getTotalVisits() {
+        // this method returns the total number of visits across all cells in the gridGraph object
+        int totalVisits = 0;
+        for (int i = 0; i < cells.size(); i++) {
+            totalVisits = totalVisits + cells.get(i).getVisitCount();
+        }
+        return totalVisits;
+    }
+    public void clearVisits() {
+        for (int i = 0; i < cells.size(); i++) {
+            cells.get(i).resetVisits();
+        }
+    }
     // Private Methods
     private void generateGraphStructure(int xSize, int ySize) {
         /* this method takes a 2D size parameter (as two separate integer values) and populates the data structure with
@@ -193,6 +206,9 @@ public class gridGraph {
         protected int getVisitCount() {
             // returns the visit count when called
             return this.visitCount;
+        }
+        protected void resetVisits() {
+            this.visitCount = 0;
         }
         protected void setTopNeighbor(cell c) {
             // this method takes a cell as input and adds as the top neighbor

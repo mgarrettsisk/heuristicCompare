@@ -1,0 +1,2000 @@
+0,0,Random Walk,61,472
+0,0,Euclidean,61,1048
+0,1,Random Walk,42,227
+0,1,Euclidean,42,1085
+0,2,Random Walk,67,980
+0,2,Euclidean,67,314
+0,3,Random Walk,42,353
+0,3,Euclidean,42,709
+0,4,Random Walk,38,79
+0,4,Euclidean,38,167
+0,5,Random Walk,31,594
+0,5,Euclidean,31,960
+0,6,Random Walk,42,511
+0,6,Euclidean,42,1005
+0,7,Random Walk,37,852
+0,7,Euclidean,37,810
+0,8,Random Walk,52,405
+0,8,Euclidean,52,257
+0,9,Random Walk,17,50
+0,9,Euclidean,17,54
+1,0,Random Walk,14,565
+1,0,Euclidean,14,1073
+1,1,Random Walk,11,766
+1,1,Euclidean,11,1220
+1,2,Random Walk,14,41
+1,2,Euclidean,14,67
+1,3,Random Walk,35,174
+1,3,Euclidean,35,1044
+1,4,Random Walk,18,43
+1,4,Euclidean,18,915
+1,5,Random Walk,43,474
+1,5,Euclidean,43,736
+1,6,Random Walk,76,263
+1,6,Euclidean,76,611
+1,7,Random Walk,44,983
+1,7,Euclidean,44,461
+1,8,Random Walk,28,115
+1,8,Euclidean,28,97
+1,9,Random Walk,61,506
+1,9,Euclidean,61,708
+2,0,Random Walk,57,890
+2,0,Euclidean,57,882
+2,1,Random Walk,46,841
+2,1,Euclidean,46,797
+2,2,Random Walk,27,1162
+2,2,Euclidean,27,410
+2,3,Random Walk,59,546
+2,3,Euclidean,59,702
+2,4,Random Walk,32,645
+2,4,Euclidean,32,515
+2,5,Random Walk,43,330
+2,5,Euclidean,43,624
+2,6,Random Walk,23,184
+2,6,Euclidean,23,664
+2,7,Random Walk,25,484
+2,7,Euclidean,25,694
+2,8,Random Walk,35,406
+2,8,Euclidean,35,580
+2,9,Random Walk,43,564
+2,9,Euclidean,43,714
+3,0,Random Walk,54,979
+3,0,Euclidean,54,303
+3,1,Random Walk,37,252
+3,1,Euclidean,37,382
+3,2,Random Walk,42,229
+3,2,Euclidean,42,187
+3,3,Random Walk,46,361
+3,3,Euclidean,46,885
+3,4,Random Walk,11,286
+3,4,Euclidean,11,514
+3,5,Random Walk,17,1026
+3,5,Euclidean,17,220
+3,6,Random Walk,71,646
+3,6,Euclidean,71,716
+3,7,Random Walk,14,63
+3,7,Euclidean,14,1189
+3,8,Random Walk,30,481
+3,8,Euclidean,30,585
+3,9,Random Walk,66,583
+3,9,Euclidean,66,953
+4,0,Random Walk,12,453
+4,0,Euclidean,12,991
+4,1,Random Walk,10,1083
+4,1,Euclidean,10,47
+4,2,Random Walk,17,1148
+4,2,Euclidean,17,1214
+4,3,Random Walk,34,397
+4,3,Euclidean,34,831
+4,4,Random Walk,52,473
+4,4,Euclidean,52,385
+4,5,Random Walk,30,739
+4,5,Euclidean,30,409
+4,6,Random Walk,49,978
+4,6,Euclidean,49,890
+4,7,Random Walk,41,778
+4,7,Euclidean,41,324
+4,8,Random Walk,54,767
+4,8,Euclidean,54,759
+4,9,Random Walk,18,111
+4,9,Euclidean,18,53
+5,0,Random Walk,31,336
+5,0,Euclidean,31,1030
+5,1,Random Walk,20,299
+5,1,Euclidean,20,115
+5,2,Random Walk,46,853
+5,2,Euclidean,46,815
+5,3,Random Walk,40,399
+5,3,Euclidean,40,763
+5,4,Random Walk,31,1082
+5,4,Euclidean,31,956
+5,5,Random Walk,52,247
+5,5,Euclidean,52,485
+5,6,Random Walk,52,505
+5,6,Euclidean,52,271
+5,7,Random Walk,45,662
+5,7,Euclidean,45,600
+5,8,Random Walk,6,1037
+5,8,Euclidean,6,223
+5,9,Random Walk,18,1213
+5,9,Euclidean,18,93
+6,0,Random Walk,24,1085
+6,0,Euclidean,24,457
+6,1,Random Walk,52,1061
+6,1,Euclidean,52,325
+6,2,Random Walk,14,59
+6,2,Euclidean,14,389
+6,3,Random Walk,41,168
+6,3,Euclidean,41,274
+6,4,Random Walk,51,512
+6,4,Euclidean,51,764
+6,5,Random Walk,62,305
+6,5,Euclidean,62,331
+6,6,Random Walk,36,1141
+6,6,Euclidean,36,143
+6,7,Random Walk,35,1038
+6,7,Euclidean,35,684
+6,8,Random Walk,55,664
+6,8,Euclidean,55,992
+6,9,Random Walk,41,954
+6,9,Euclidean,41,240
+7,0,Random Walk,40,1041
+7,0,Euclidean,40,277
+7,1,Random Walk,55,286
+7,1,Euclidean,55,760
+7,2,Random Walk,71,666
+7,2,Euclidean,71,886
+7,3,Random Walk,32,1089
+7,3,Euclidean,32,361
+7,4,Random Walk,29,1114
+7,4,Euclidean,29,1084
+7,5,Random Walk,11,90
+7,5,Euclidean,11,86
+7,6,Random Walk,38,267
+7,6,Euclidean,38,253
+7,7,Random Walk,36,995
+7,7,Euclidean,36,587
+7,8,Random Walk,50,597
+7,8,Euclidean,50,629
+7,9,Random Walk,50,601
+7,9,Euclidean,50,703
+8,0,Random Walk,69,498
+8,0,Euclidean,69,754
+8,1,Random Walk,49,314
+8,1,Euclidean,49,190
+8,2,Random Walk,11,24
+8,2,Euclidean,11,58
+8,3,Random Walk,54,963
+8,3,Euclidean,54,535
+8,4,Random Walk,10,1201
+8,4,Euclidean,10,105
+8,5,Random Walk,55,516
+8,5,Euclidean,55,1036
+8,6,Random Walk,14,55
+8,6,Euclidean,14,53
+8,7,Random Walk,24,71
+8,7,Euclidean,24,321
+8,8,Random Walk,49,664
+8,8,Euclidean,49,646
+8,9,Random Walk,64,661
+8,9,Euclidean,64,981
+9,0,Random Walk,30,977
+9,0,Euclidean,30,83
+9,1,Random Walk,21,538
+9,1,Euclidean,21,488
+9,2,Random Walk,63,694
+9,2,Euclidean,63,646
+9,3,Random Walk,36,1099
+9,3,Euclidean,36,1143
+9,4,Random Walk,38,695
+9,4,Euclidean,38,271
+9,5,Random Walk,5,1242
+9,5,Euclidean,5,932
+9,6,Random Walk,32,307
+9,6,Euclidean,32,795
+9,7,Random Walk,22,33
+9,7,Euclidean,22,1001
+9,8,Random Walk,48,601
+9,8,Euclidean,48,441
+9,9,Random Walk,44,553
+9,9,Euclidean,44,687
+10,0,Random Walk,22,1045
+10,0,Euclidean,22,193
+10,1,Random Walk,35,1000
+10,1,Euclidean,35,476
+10,2,Random Walk,16,47
+10,2,Euclidean,16,147
+10,3,Random Walk,9,8
+10,3,Euclidean,9,8
+10,4,Random Walk,35,884
+10,4,Euclidean,35,1192
+10,5,Random Walk,17,66
+10,5,Euclidean,17,82
+10,6,Random Walk,42,961
+10,6,Euclidean,42,979
+10,7,Random Walk,35,382
+10,7,Euclidean,35,550
+10,8,Random Walk,47,700
+10,8,Euclidean,47,620
+10,9,Random Walk,27,1178
+10,9,Euclidean,27,82
+11,0,Random Walk,28,137
+11,0,Euclidean,28,105
+11,1,Random Walk,63,546
+11,1,Euclidean,63,578
+11,2,Random Walk,39,514
+11,2,Euclidean,39,772
+11,3,Random Walk,18,59
+11,3,Euclidean,18,1187
+11,4,Random Walk,43,540
+11,4,Euclidean,43,724
+11,5,Random Walk,59,944
+11,5,Euclidean,59,524
+11,6,Random Walk,32,303
+11,6,Euclidean,32,761
+11,7,Random Walk,3,1180
+11,7,Euclidean,3,2
+11,8,Random Walk,33,1090
+11,8,Euclidean,33,1038
+11,9,Random Walk,60,381
+11,9,Euclidean,60,395
+12,0,Random Walk,35,528
+12,0,Euclidean,35,588
+12,1,Random Walk,12,37
+12,1,Euclidean,12,19
+12,2,Random Walk,4,399
+12,2,Euclidean,4,595
+12,3,Random Walk,19,246
+12,3,Euclidean,19,994
+12,4,Random Walk,49,688
+12,4,Euclidean,49,952
+12,5,Random Walk,45,606
+12,5,Euclidean,45,192
+12,6,Random Walk,38,1131
+12,6,Euclidean,38,207
+12,7,Random Walk,37,660
+12,7,Euclidean,37,350
+12,8,Random Walk,39,796
+12,8,Euclidean,39,770
+12,9,Random Walk,16,599
+12,9,Euclidean,16,619
+13,0,Random Walk,30,815
+13,0,Euclidean,30,1059
+13,1,Random Walk,55,564
+13,1,Euclidean,55,490
+13,2,Random Walk,2,1241
+13,2,Euclidean,2,3
+13,3,Random Walk,13,850
+13,3,Euclidean,13,368
+13,4,Random Walk,60,627
+13,4,Euclidean,60,827
+13,5,Random Walk,51,1050
+13,5,Euclidean,51,1082
+13,6,Random Walk,50,355
+13,6,Euclidean,50,437
+13,7,Random Walk,52,815
+13,7,Euclidean,52,1005
+13,8,Random Walk,64,351
+13,8,Euclidean,64,971
+13,9,Random Walk,28,963
+13,9,Euclidean,28,1145
+14,0,Random Walk,25,1170
+14,0,Euclidean,25,1080
+14,1,Random Walk,27,568
+14,1,Euclidean,27,166
+14,2,Random Walk,38,739
+14,2,Euclidean,38,507
+14,3,Random Walk,50,127
+14,3,Euclidean,50,199
+14,4,Random Walk,78,879
+14,4,Euclidean,78,615
+14,5,Random Walk,60,299
+14,5,Euclidean,60,971
+14,6,Random Walk,34,897
+14,6,Euclidean,34,803
+14,7,Random Walk,41,1040
+14,7,Euclidean,41,940
+14,8,Random Walk,60,1061
+14,8,Euclidean,60,323
+14,9,Random Walk,30,819
+14,9,Euclidean,30,629
+15,0,Random Walk,34,121
+15,0,Euclidean,34,1137
+15,1,Random Walk,34,535
+15,1,Euclidean,34,961
+15,2,Random Walk,20,1205
+15,2,Euclidean,20,1201
+15,3,Random Walk,20,1055
+15,3,Euclidean,20,1071
+15,4,Random Walk,60,163
+15,4,Euclidean,60,683
+15,5,Random Walk,29,1124
+15,5,Euclidean,29,90
+15,6,Random Walk,30,339
+15,6,Euclidean,30,635
+15,7,Random Walk,20,1213
+15,7,Euclidean,20,65
+15,8,Random Walk,47,822
+15,8,Euclidean,47,616
+15,9,Random Walk,60,417
+15,9,Euclidean,60,739
+16,0,Random Walk,48,1005
+16,0,Euclidean,48,509
+16,1,Random Walk,54,1051
+16,1,Euclidean,54,949
+16,2,Random Walk,57,740
+16,2,Euclidean,57,580
+16,3,Random Walk,36,245
+16,3,Euclidean,36,1143
+16,4,Random Walk,40,541
+16,4,Euclidean,40,1071
+16,5,Random Walk,41,398
+16,5,Euclidean,41,588
+16,6,Random Walk,19,1012
+16,6,Euclidean,19,56
+16,7,Random Walk,27,344
+16,7,Euclidean,27,578
+16,8,Random Walk,16,343
+16,8,Euclidean,16,369
+16,9,Random Walk,46,829
+16,9,Euclidean,46,661
+17,0,Random Walk,36,557
+17,0,Euclidean,36,803
+17,1,Random Walk,51,374
+17,1,Euclidean,51,774
+17,2,Random Walk,18,217
+17,2,Euclidean,18,347
+17,3,Random Walk,31,204
+17,3,Euclidean,31,1020
+17,4,Random Walk,27,714
+17,4,Euclidean,27,1034
+17,5,Random Walk,15,1178
+17,5,Euclidean,15,1190
+17,6,Random Walk,34,487
+17,6,Euclidean,34,483
+17,7,Random Walk,27,100
+17,7,Euclidean,27,154
+17,8,Random Walk,28,337
+17,8,Euclidean,28,449
+17,9,Random Walk,49,426
+17,9,Euclidean,49,550
+18,0,Random Walk,12,1151
+18,0,Euclidean,12,55
+18,1,Random Walk,60,165
+18,1,Euclidean,60,253
+18,2,Random Walk,29,212
+18,2,Euclidean,29,974
+18,3,Random Walk,25,510
+18,3,Euclidean,25,412
+18,4,Random Walk,40,655
+18,4,Euclidean,40,403
+18,5,Random Walk,58,931
+18,5,Euclidean,58,1029
+18,6,Random Walk,21,102
+18,6,Euclidean,21,68
+18,7,Random Walk,47,518
+18,7,Euclidean,47,566
+18,8,Random Walk,8,27
+18,8,Euclidean,8,181
+18,9,Random Walk,10,1223
+18,9,Euclidean,10,55
+19,0,Random Walk,52,817
+19,0,Euclidean,52,945
+19,1,Random Walk,8,13
+19,1,Euclidean,8,1141
+19,2,Random Walk,62,967
+19,2,Euclidean,62,719
+19,3,Random Walk,45,696
+19,3,Euclidean,45,940
+19,4,Random Walk,60,855
+19,4,Euclidean,60,391
+19,5,Random Walk,43,630
+19,5,Euclidean,43,850
+19,6,Random Walk,53,792
+19,6,Euclidean,53,132
+19,7,Random Walk,42,765
+19,7,Euclidean,42,811
+19,8,Random Walk,78,847
+19,8,Euclidean,78,565
+19,9,Random Walk,69,402
+19,9,Euclidean,69,748
+20,0,Random Walk,23,174
+20,0,Euclidean,23,772
+20,1,Random Walk,22,1013
+20,1,Euclidean,22,229
+20,2,Random Walk,41,1070
+20,2,Euclidean,41,728
+20,3,Random Walk,48,331
+20,3,Euclidean,48,1079
+20,4,Random Walk,62,743
+20,4,Euclidean,62,653
+20,5,Random Walk,16,111
+20,5,Euclidean,16,567
+20,6,Random Walk,30,229
+20,6,Euclidean,30,61
+20,7,Random Walk,3,30
+20,7,Euclidean,3,32
+20,8,Random Walk,38,427
+20,8,Euclidean,38,317
+20,9,Random Walk,34,1033
+20,9,Euclidean,34,627
+21,0,Random Walk,28,165
+21,0,Euclidean,28,209
+21,1,Random Walk,60,711
+21,1,Euclidean,60,991
+21,2,Random Walk,32,191
+21,2,Euclidean,32,1155
+21,3,Random Walk,17,1198
+21,3,Euclidean,17,68
+21,4,Random Walk,39,1086
+21,4,Euclidean,39,386
+21,5,Random Walk,44,389
+21,5,Euclidean,44,841
+21,6,Random Walk,37,1074
+21,6,Euclidean,37,662
+21,7,Random Walk,46,243
+21,7,Euclidean,46,253
+21,8,Random Walk,35,382
+21,8,Euclidean,35,794
+21,9,Random Walk,70,485
+21,9,Euclidean,70,897
+22,0,Random Walk,60,699
+22,0,Euclidean,60,741
+22,1,Random Walk,38,75
+22,1,Euclidean,38,923
+22,2,Random Walk,80,857
+22,2,Euclidean,80,1077
+22,3,Random Walk,23,1174
+22,3,Euclidean,23,278
+22,4,Random Walk,58,819
+22,4,Euclidean,58,1035
+22,5,Random Walk,65,520
+22,5,Euclidean,65,1084
+22,6,Random Walk,42,959
+22,6,Euclidean,42,407
+22,7,Random Walk,53,480
+22,7,Euclidean,53,924
+22,8,Random Walk,28,711
+22,8,Euclidean,28,497
+22,9,Random Walk,32,647
+22,9,Euclidean,32,213
+23,0,Random Walk,52,481
+23,0,Euclidean,52,1093
+23,1,Random Walk,27,572
+23,1,Euclidean,27,942
+23,2,Random Walk,69,842
+23,2,Euclidean,69,956
+23,3,Random Walk,21,612
+23,3,Euclidean,21,34
+23,4,Random Walk,38,1043
+23,4,Euclidean,38,279
+23,5,Random Walk,39,416
+23,5,Euclidean,39,448
+23,6,Random Walk,55,392
+23,6,Euclidean,55,948
+23,7,Random Walk,32,579
+23,7,Euclidean,32,649
+23,8,Random Walk,11,56
+23,8,Euclidean,11,62
+23,9,Random Walk,16,1075
+23,9,Euclidean,16,185
+24,0,Random Walk,16,29
+24,0,Euclidean,16,331
+24,1,Random Walk,41,562
+24,1,Euclidean,41,628
+24,2,Random Walk,34,1083
+24,2,Euclidean,34,235
+24,3,Random Walk,40,675
+24,3,Euclidean,40,783
+24,4,Random Walk,8,1221
+24,4,Euclidean,8,139
+24,5,Random Walk,9,28
+24,5,Euclidean,9,34
+24,6,Random Walk,21,1042
+24,6,Euclidean,21,56
+24,7,Random Walk,53,424
+24,7,Euclidean,53,1104
+24,8,Random Walk,45,848
+24,8,Euclidean,45,1034
+24,9,Random Walk,11,58
+24,9,Euclidean,11,60
+25,0,Random Walk,27,788
+25,0,Euclidean,27,878
+25,1,Random Walk,43,558
+25,1,Euclidean,43,322
+25,2,Random Walk,40,1027
+25,2,Euclidean,40,1123
+25,3,Random Walk,10,75
+25,3,Euclidean,10,67
+25,4,Random Walk,13,1186
+25,4,Euclidean,13,60
+25,5,Random Walk,12,187
+25,5,Euclidean,12,187
+25,6,Random Walk,22,91
+25,6,Euclidean,22,157
+25,7,Random Walk,17,1152
+25,7,Euclidean,17,50
+25,8,Random Walk,24,963
+25,8,Euclidean,24,599
+25,9,Random Walk,45,1032
+25,9,Euclidean,45,768
+26,0,Random Walk,73,768
+26,0,Euclidean,73,1016
+26,1,Random Walk,49,296
+26,1,Euclidean,49,968
+26,2,Random Walk,43,316
+26,2,Euclidean,43,404
+26,3,Random Walk,59,332
+26,3,Euclidean,59,998
+26,4,Random Walk,55,816
+26,4,Euclidean,55,714
+26,5,Random Walk,47,414
+26,5,Euclidean,47,1114
+26,6,Random Walk,30,461
+26,6,Euclidean,30,363
+26,7,Random Walk,80,565
+26,7,Euclidean,80,983
+26,8,Random Walk,23,282
+26,8,Euclidean,23,286
+26,9,Random Walk,36,655
+26,9,Euclidean,36,277
+27,0,Random Walk,17,1160
+27,0,Euclidean,17,328
+27,1,Random Walk,36,655
+27,1,Euclidean,36,309
+27,2,Random Walk,40,225
+27,2,Euclidean,40,759
+27,3,Random Walk,17,360
+27,3,Euclidean,17,762
+27,4,Random Walk,61,712
+27,4,Euclidean,61,552
+27,5,Random Walk,45,836
+27,5,Euclidean,45,638
+27,6,Random Walk,54,373
+27,6,Euclidean,54,1145
+27,7,Random Walk,71,960
+27,7,Euclidean,71,400
+27,8,Random Walk,25,1166
+27,8,Euclidean,25,36
+27,9,Random Walk,55,344
+27,9,Euclidean,55,424
+28,0,Random Walk,41,1006
+28,0,Euclidean,41,734
+28,1,Random Walk,42,713
+28,1,Euclidean,42,479
+28,2,Random Walk,9,1176
+28,2,Euclidean,9,628
+28,3,Random Walk,9,1230
+28,3,Euclidean,9,474
+28,4,Random Walk,58,477
+28,4,Euclidean,58,701
+28,5,Random Walk,32,523
+28,5,Euclidean,32,641
+28,6,Random Walk,42,883
+28,6,Euclidean,42,911
+28,7,Random Walk,42,403
+28,7,Euclidean,42,1041
+28,8,Random Walk,54,973
+28,8,Euclidean,54,809
+28,9,Random Walk,4,11
+28,9,Euclidean,4,11
+29,0,Random Walk,34,377
+29,0,Euclidean,34,543
+29,1,Random Walk,10,1213
+29,1,Euclidean,10,85
+29,2,Random Walk,42,635
+29,2,Euclidean,42,739
+29,3,Random Walk,22,1113
+29,3,Euclidean,22,87
+29,4,Random Walk,9,1164
+29,4,Euclidean,9,72
+29,5,Random Walk,4,1149
+29,5,Euclidean,4,115
+29,6,Random Walk,29,366
+29,6,Euclidean,29,716
+29,7,Random Walk,30,1005
+29,7,Euclidean,30,1145
+29,8,Random Walk,27,292
+29,8,Euclidean,27,154
+29,9,Random Walk,26,73
+29,9,Euclidean,26,995
+30,0,Random Walk,22,645
+30,0,Euclidean,22,653
+30,1,Random Walk,23,380
+30,1,Euclidean,23,446
+30,2,Random Walk,38,415
+30,2,Euclidean,38,603
+30,3,Random Walk,19,860
+30,3,Euclidean,19,488
+30,4,Random Walk,46,719
+30,4,Euclidean,46,1173
+30,5,Random Walk,19,146
+30,5,Euclidean,19,146
+30,6,Random Walk,8,45
+30,6,Euclidean,8,1199
+30,7,Random Walk,45,944
+30,7,Euclidean,45,1188
+30,8,Random Walk,14,19
+30,8,Euclidean,14,41
+30,9,Random Walk,43,1052
+30,9,Euclidean,43,1158
+31,0,Random Walk,53,300
+31,0,Euclidean,53,604
+31,1,Random Walk,38,97
+31,1,Euclidean,38,251
+31,2,Random Walk,58,331
+31,2,Euclidean,58,983
+31,3,Random Walk,58,471
+31,3,Euclidean,58,669
+31,4,Random Walk,46,643
+31,4,Euclidean,46,903
+31,5,Random Walk,53,762
+31,5,Euclidean,53,754
+31,6,Random Walk,13,76
+31,6,Euclidean,13,116
+31,7,Random Walk,28,141
+31,7,Euclidean,28,693
+31,8,Random Walk,48,585
+31,8,Euclidean,48,689
+31,9,Random Walk,31,328
+31,9,Euclidean,31,770
+32,0,Random Walk,7,1210
+32,0,Euclidean,7,1218
+32,1,Random Walk,16,27
+32,1,Euclidean,16,33
+32,2,Random Walk,30,649
+32,2,Euclidean,30,701
+32,3,Random Walk,68,847
+32,3,Euclidean,68,807
+32,4,Random Walk,38,839
+32,4,Euclidean,38,215
+32,5,Random Walk,15,1212
+32,5,Euclidean,15,1174
+32,6,Random Walk,27,1032
+32,6,Euclidean,27,464
+32,7,Random Walk,48,267
+32,7,Euclidean,48,293
+32,8,Random Walk,34,331
+32,8,Euclidean,34,607
+32,9,Random Walk,26,663
+32,9,Euclidean,26,663
+33,0,Random Walk,21,1120
+33,0,Euclidean,21,1218
+33,1,Random Walk,10,1229
+33,1,Euclidean,10,281
+33,2,Random Walk,36,289
+33,2,Euclidean,36,459
+33,3,Random Walk,28,697
+33,3,Euclidean,28,733
+33,4,Random Walk,57,998
+33,4,Euclidean,57,768
+33,5,Random Walk,20,1127
+33,5,Euclidean,20,1203
+33,6,Random Walk,14,139
+33,6,Euclidean,14,23
+33,7,Random Walk,25,514
+33,7,Euclidean,25,952
+33,8,Random Walk,43,562
+33,8,Euclidean,43,758
+33,9,Random Walk,37,264
+33,9,Euclidean,37,924
+34,0,Random Walk,25,804
+34,0,Euclidean,25,664
+34,1,Random Walk,29,1076
+34,1,Euclidean,29,1100
+34,2,Random Walk,19,1098
+34,2,Euclidean,19,138
+34,3,Random Walk,28,1101
+34,3,Euclidean,28,1053
+34,4,Random Walk,38,861
+34,4,Euclidean,38,807
+34,5,Random Walk,52,505
+34,5,Euclidean,52,1021
+34,6,Random Walk,22,1103
+34,6,Euclidean,22,817
+34,7,Random Walk,29,362
+34,7,Euclidean,29,678
+34,8,Random Walk,45,556
+34,8,Euclidean,45,434
+34,9,Random Walk,22,577
+34,9,Euclidean,22,551
+35,0,Random Walk,15,796
+35,0,Euclidean,15,1022
+35,1,Random Walk,21,582
+35,1,Euclidean,21,1138
+35,2,Random Walk,20,185
+35,2,Euclidean,20,197
+35,3,Random Walk,45,774
+35,3,Euclidean,45,480
+35,4,Random Walk,51,746
+35,4,Euclidean,51,994
+35,5,Random Walk,24,391
+35,5,Euclidean,24,903
+35,6,Random Walk,58,557
+35,6,Euclidean,58,1021
+35,7,Random Walk,12,97
+35,7,Euclidean,12,1067
+35,8,Random Walk,39,426
+35,8,Euclidean,39,730
+35,9,Random Walk,29,1154
+35,9,Euclidean,29,138
+36,0,Random Walk,42,715
+36,0,Euclidean,42,359
+36,1,Random Walk,49,1024
+36,1,Euclidean,49,998
+36,2,Random Walk,8,1233
+36,2,Euclidean,8,9
+36,3,Random Walk,44,253
+36,3,Euclidean,44,131
+36,4,Random Walk,61,550
+36,4,Euclidean,61,504
+36,5,Random Walk,37,530
+36,5,Euclidean,37,700
+36,6,Random Walk,46,655
+36,6,Euclidean,46,295
+36,7,Random Walk,39,860
+36,7,Euclidean,39,788
+36,8,Random Walk,30,875
+36,8,Euclidean,30,1043
+36,9,Random Walk,48,471
+36,9,Euclidean,48,751
+37,0,Random Walk,42,549
+37,0,Euclidean,42,775
+37,1,Random Walk,43,680
+37,1,Euclidean,43,676
+37,2,Random Walk,37,856
+37,2,Euclidean,37,356
+37,3,Random Walk,18,125
+37,3,Euclidean,18,29
+37,4,Random Walk,31,118
+37,4,Euclidean,31,266
+37,5,Random Walk,42,463
+37,5,Euclidean,42,519
+37,6,Random Walk,21,274
+37,6,Euclidean,21,984
+37,7,Random Walk,49,650
+37,7,Euclidean,49,764
+37,8,Random Walk,49,842
+37,8,Euclidean,49,686
+37,9,Random Walk,25,78
+37,9,Euclidean,25,1148
+38,0,Random Walk,12,915
+38,0,Euclidean,12,367
+38,1,Random Walk,43,146
+38,1,Euclidean,43,798
+38,2,Random Walk,32,617
+38,2,Euclidean,32,663
+38,3,Random Walk,13,1008
+38,3,Euclidean,13,510
+38,4,Random Walk,30,557
+38,4,Euclidean,30,523
+38,5,Random Walk,48,479
+38,5,Euclidean,48,865
+38,6,Random Walk,10,63
+38,6,Euclidean,10,41
+38,7,Random Walk,46,409
+38,7,Euclidean,46,435
+38,8,Random Walk,20,1019
+38,8,Euclidean,20,53
+38,9,Random Walk,9,22
+38,9,Euclidean,9,1222
+39,0,Random Walk,45,332
+39,0,Euclidean,45,528
+39,1,Random Walk,21,1010
+39,1,Euclidean,21,426
+39,2,Random Walk,35,452
+39,2,Euclidean,35,100
+39,3,Random Walk,25,118
+39,3,Euclidean,25,212
+39,4,Random Walk,36,1085
+39,4,Euclidean,36,311
+39,5,Random Walk,24,273
+39,5,Euclidean,24,701
+39,6,Random Walk,38,1159
+39,6,Euclidean,38,1113
+39,7,Random Walk,37,232
+39,7,Euclidean,37,1028
+39,8,Random Walk,53,878
+39,8,Euclidean,53,954
+39,9,Random Walk,16,1207
+39,9,Euclidean,16,869
+40,0,Random Walk,23,346
+40,0,Euclidean,23,432
+40,1,Random Walk,58,507
+40,1,Euclidean,58,1029
+40,2,Random Walk,29,1072
+40,2,Euclidean,29,214
+40,3,Random Walk,56,531
+40,3,Euclidean,56,1077
+40,4,Random Walk,40,193
+40,4,Euclidean,40,559
+40,5,Random Walk,40,469
+40,5,Euclidean,40,1127
+40,6,Random Walk,8,1137
+40,6,Euclidean,8,381
+40,7,Random Walk,38,1013
+40,7,Euclidean,38,1117
+40,8,Random Walk,20,899
+40,8,Euclidean,20,271
+40,9,Random Walk,56,623
+40,9,Euclidean,56,1067
+41,0,Random Walk,40,149
+41,0,Euclidean,40,117
+41,1,Random Walk,29,246
+41,1,Euclidean,29,290
+41,2,Random Walk,2,1
+41,2,Euclidean,2,27
+41,3,Random Walk,49,428
+41,3,Euclidean,49,698
+41,4,Random Walk,16,1203
+41,4,Euclidean,16,1193
+41,5,Random Walk,48,951
+41,5,Euclidean,48,899
+41,6,Random Walk,36,175
+41,6,Euclidean,36,1037
+41,7,Random Walk,60,771
+41,7,Euclidean,60,427
+41,8,Random Walk,39,974
+41,8,Euclidean,39,1014
+41,9,Random Walk,50,487
+41,9,Euclidean,50,983
+42,0,Random Walk,42,375
+42,0,Euclidean,42,861
+42,1,Random Walk,65,454
+42,1,Euclidean,65,654
+42,2,Random Walk,64,613
+42,2,Euclidean,64,811
+42,3,Random Walk,16,39
+42,3,Euclidean,16,79
+42,4,Random Walk,53,934
+42,4,Euclidean,53,900
+42,5,Random Walk,48,401
+42,5,Euclidean,48,887
+42,6,Random Walk,17,956
+42,6,Euclidean,17,312
+42,7,Random Walk,21,1074
+42,7,Euclidean,21,1206
+42,8,Random Walk,43,516
+42,8,Euclidean,43,890
+42,9,Random Walk,36,1043
+42,9,Euclidean,36,93
+43,0,Random Walk,40,1017
+43,0,Euclidean,40,221
+43,1,Random Walk,39,118
+43,1,Euclidean,39,236
+43,2,Random Walk,19,1162
+43,2,Euclidean,19,410
+43,3,Random Walk,55,822
+43,3,Euclidean,55,384
+43,4,Random Walk,49,582
+43,4,Euclidean,49,588
+43,5,Random Walk,62,431
+43,5,Euclidean,62,753
+43,6,Random Walk,18,1097
+43,6,Euclidean,18,219
+43,7,Random Walk,11,388
+43,7,Euclidean,11,64
+43,8,Random Walk,33,1004
+43,8,Euclidean,33,94
+43,9,Random Walk,40,1079
+43,9,Euclidean,40,535
+44,0,Random Walk,17,32
+44,0,Euclidean,17,22
+44,1,Random Walk,50,629
+44,1,Euclidean,50,823
+44,2,Random Walk,49,996
+44,2,Euclidean,49,1042
+44,3,Random Walk,57,210
+44,3,Euclidean,57,1002
+44,4,Random Walk,35,974
+44,4,Euclidean,35,698
+44,5,Random Walk,15,1124
+44,5,Euclidean,15,1180
+44,6,Random Walk,16,105
+44,6,Euclidean,16,707
+44,7,Random Walk,40,541
+44,7,Euclidean,40,773
+44,8,Random Walk,43,496
+44,8,Euclidean,43,338
+44,9,Random Walk,21,422
+44,9,Euclidean,21,402
+45,0,Random Walk,41,306
+45,0,Euclidean,41,544
+45,1,Random Walk,26,1149
+45,1,Euclidean,26,157
+45,2,Random Walk,43,82
+45,2,Euclidean,43,532
+45,3,Random Walk,41,1076
+45,3,Euclidean,41,990
+45,4,Random Walk,21,156
+45,4,Euclidean,21,248
+45,5,Random Walk,40,811
+45,5,Euclidean,40,245
+45,6,Random Walk,39,830
+45,6,Euclidean,39,1140
+45,7,Random Walk,38,207
+45,7,Euclidean,38,95
+45,8,Random Walk,33,526
+45,8,Euclidean,33,376
+45,9,Random Walk,42,925
+45,9,Euclidean,42,657
+46,0,Random Walk,10,1049
+46,0,Euclidean,10,55
+46,1,Random Walk,8,19
+46,1,Euclidean,8,19
+46,2,Random Walk,57,680
+46,2,Euclidean,57,584
+46,3,Random Walk,40,1087
+46,3,Euclidean,40,701
+46,4,Random Walk,40,529
+46,4,Euclidean,40,971
+46,5,Random Walk,13,1200
+46,5,Euclidean,13,36
+46,6,Random Walk,9,1230
+46,6,Euclidean,9,20
+46,7,Random Walk,26,269
+46,7,Euclidean,26,1181
+46,8,Random Walk,30,1065
+46,8,Euclidean,30,279
+46,9,Random Walk,31,608
+46,9,Euclidean,31,726
+47,0,Random Walk,29,696
+47,0,Euclidean,29,820
+47,1,Random Walk,35,88
+47,1,Euclidean,35,810
+47,2,Random Walk,40,727
+47,2,Euclidean,40,647
+47,3,Random Walk,35,122
+47,3,Euclidean,35,120
+47,4,Random Walk,46,681
+47,4,Euclidean,46,961
+47,5,Random Walk,37,956
+47,5,Euclidean,37,1032
+47,6,Random Walk,31,664
+47,6,Euclidean,31,726
+47,7,Random Walk,9,1222
+47,7,Euclidean,9,36
+47,8,Random Walk,20,179
+47,8,Euclidean,20,289
+47,9,Random Walk,10,1219
+47,9,Euclidean,10,19
+48,0,Random Walk,40,221
+48,0,Euclidean,40,381
+48,1,Random Walk,9,16
+48,1,Euclidean,9,10
+48,2,Random Walk,71,462
+48,2,Euclidean,71,646
+48,3,Random Walk,38,961
+48,3,Euclidean,38,475
+48,4,Random Walk,19,34
+48,4,Euclidean,19,574
+48,5,Random Walk,16,1103
+48,5,Euclidean,16,71
+48,6,Random Walk,11,1232
+48,6,Euclidean,11,476
+48,7,Random Walk,49,714
+48,7,Euclidean,49,456
+48,8,Random Walk,42,855
+48,8,Euclidean,42,463
+48,9,Random Walk,31,1134
+48,9,Euclidean,31,956
+49,0,Random Walk,17,58
+49,0,Euclidean,17,62
+49,1,Random Walk,54,305
+49,1,Euclidean,54,873
+49,2,Random Walk,30,599
+49,2,Euclidean,30,393
+49,3,Random Walk,32,507
+49,3,Euclidean,32,655
+49,4,Random Walk,23,44
+49,4,Euclidean,23,96
+49,5,Random Walk,52,765
+49,5,Euclidean,52,1035
+49,6,Random Walk,73,518
+49,6,Euclidean,73,764
+49,7,Random Walk,32,331
+49,7,Euclidean,32,373
+49,8,Random Walk,33,636
+49,8,Euclidean,33,664
+49,9,Random Walk,57,222
+49,9,Euclidean,57,384
+50,0,Random Walk,61,870
+50,0,Euclidean,61,1090
+50,1,Random Walk,54,533
+50,1,Euclidean,54,199
+50,2,Random Walk,30,257
+50,2,Euclidean,30,363
+50,3,Random Walk,25,86
+50,3,Euclidean,25,82
+50,4,Random Walk,62,333
+50,4,Euclidean,62,647
+50,5,Random Walk,53,448
+50,5,Euclidean,53,636
+50,6,Random Walk,39,206
+50,6,Euclidean,39,212
+50,7,Random Walk,30,199
+50,7,Euclidean,30,213
+50,8,Random Walk,42,279
+50,8,Euclidean,42,885
+50,9,Random Walk,20,73
+50,9,Euclidean,20,147
+51,0,Random Walk,25,906
+51,0,Euclidean,25,98
+51,1,Random Walk,57,756
+51,1,Euclidean,57,962
+51,2,Random Walk,40,457
+51,2,Euclidean,40,1121
+51,3,Random Walk,39,830
+51,3,Euclidean,39,1068
+51,4,Random Walk,30,1043
+51,4,Euclidean,30,1055
+51,5,Random Walk,32,525
+51,5,Euclidean,32,857
+51,6,Random Walk,38,1045
+51,6,Euclidean,38,323
+51,7,Random Walk,13,1040
+51,7,Euclidean,13,226
+51,8,Random Walk,20,265
+51,8,Euclidean,20,1153
+51,9,Random Walk,38,619
+51,9,Euclidean,38,783
+52,0,Random Walk,15,438
+52,0,Euclidean,15,282
+52,1,Random Walk,4,1245
+52,1,Euclidean,4,3
+52,2,Random Walk,15,24
+52,2,Euclidean,15,1114
+52,3,Random Walk,40,1153
+52,3,Euclidean,40,1055
+52,4,Random Walk,40,223
+52,4,Euclidean,40,1029
+52,5,Random Walk,52,839
+52,5,Euclidean,52,971
+52,6,Random Walk,17,642
+52,6,Euclidean,17,842
+52,7,Random Walk,21,1178
+52,7,Euclidean,21,156
+52,8,Random Walk,44,565
+52,8,Euclidean,44,467
+52,9,Random Walk,51,838
+52,9,Euclidean,51,568
+53,0,Random Walk,8,13
+53,0,Euclidean,8,1211
+53,1,Random Walk,45,322
+53,1,Euclidean,45,830
+53,2,Random Walk,46,937
+53,2,Euclidean,46,1045
+53,3,Random Walk,53,810
+53,3,Euclidean,53,486
+53,4,Random Walk,56,291
+53,4,Euclidean,56,429
+53,5,Random Walk,14,1169
+53,5,Euclidean,14,55
+53,6,Random Walk,64,559
+53,6,Euclidean,64,543
+53,7,Random Walk,40,407
+53,7,Euclidean,40,395
+53,8,Random Walk,14,1231
+53,8,Euclidean,14,101
+53,9,Random Walk,45,1084
+53,9,Euclidean,45,198
+54,0,Random Walk,24,261
+54,0,Euclidean,24,753
+54,1,Random Walk,32,547
+54,1,Euclidean,32,359
+54,2,Random Walk,31,866
+54,2,Euclidean,31,300
+54,3,Random Walk,24,545
+54,3,Euclidean,24,771
+54,4,Random Walk,60,645
+54,4,Euclidean,60,821
+54,5,Random Walk,24,101
+54,5,Euclidean,24,231
+54,6,Random Walk,9,700
+54,6,Euclidean,9,724
+54,7,Random Walk,46,951
+54,7,Euclidean,46,1141
+54,8,Random Walk,35,1082
+54,8,Euclidean,35,140
+54,9,Random Walk,9,10
+54,9,Euclidean,9,32
+55,0,Random Walk,21,168
+55,0,Euclidean,21,1176
+55,1,Random Walk,18,1001
+55,1,Euclidean,18,317
+55,2,Random Walk,39,196
+55,2,Euclidean,39,614
+55,3,Random Walk,46,955
+55,3,Euclidean,46,391
+55,4,Random Walk,46,383
+55,4,Euclidean,46,985
+55,5,Random Walk,42,417
+55,5,Euclidean,42,265
+55,6,Random Walk,52,699
+55,6,Euclidean,52,761
+55,7,Random Walk,10,23
+55,7,Euclidean,10,1235
+55,8,Random Walk,19,1174
+55,8,Euclidean,19,44
+55,9,Random Walk,51,418
+55,9,Euclidean,51,958
+56,0,Random Walk,11,276
+56,0,Euclidean,11,1198
+56,1,Random Walk,14,75
+56,1,Euclidean,14,71
+56,2,Random Walk,11,36
+56,2,Euclidean,11,50
+56,3,Random Walk,23,750
+56,3,Euclidean,23,202
+56,4,Random Walk,65,674
+56,4,Euclidean,65,560
+56,5,Random Walk,42,263
+56,5,Euclidean,42,965
+56,6,Random Walk,9,1238
+56,6,Euclidean,9,554
+56,7,Random Walk,48,343
+56,7,Euclidean,48,987
+56,8,Random Walk,34,289
+56,8,Euclidean,34,421
+56,9,Random Walk,61,486
+56,9,Euclidean,61,568
+57,0,Random Walk,33,962
+57,0,Euclidean,33,568
+57,1,Random Walk,2,1
+57,1,Euclidean,2,1247
+57,2,Random Walk,33,194
+57,2,Euclidean,33,582
+57,3,Random Walk,30,865
+57,3,Euclidean,30,449
+57,4,Random Walk,63,960
+57,4,Euclidean,63,1008
+57,5,Random Walk,46,349
+57,5,Euclidean,46,675
+57,6,Random Walk,64,737
+57,6,Euclidean,64,855
+57,7,Random Walk,53,590
+57,7,Euclidean,53,830
+57,8,Random Walk,22,213
+57,8,Euclidean,22,1009
+57,9,Random Walk,13,1196
+57,9,Euclidean,13,128
+58,0,Random Walk,16,77
+58,0,Euclidean,16,89
+58,1,Random Walk,4,9
+58,1,Euclidean,4,9
+58,2,Random Walk,19,1084
+58,2,Euclidean,19,192
+58,3,Random Walk,36,257
+58,3,Euclidean,36,133
+58,4,Random Walk,26,1027
+58,4,Euclidean,26,801
+58,5,Random Walk,16,1117
+58,5,Euclidean,16,1145
+58,6,Random Walk,18,1201
+58,6,Euclidean,18,153
+58,7,Random Walk,26,567
+58,7,Euclidean,26,615
+58,8,Random Walk,11,1012
+58,8,Euclidean,11,1008
+58,9,Random Walk,5,1238
+58,9,Euclidean,5,10
+59,0,Random Walk,7,1132
+59,0,Euclidean,7,12
+59,1,Random Walk,40,225
+59,1,Euclidean,40,905
+59,2,Random Walk,34,75
+59,2,Euclidean,34,317
+59,3,Random Walk,24,199
+59,3,Euclidean,24,227
+59,4,Random Walk,15,1072
+59,4,Euclidean,15,204
+59,5,Random Walk,14,275
+59,5,Euclidean,14,325
+59,6,Random Walk,56,883
+59,6,Euclidean,56,957
+59,7,Random Walk,61,998
+59,7,Euclidean,61,670
+59,8,Random Walk,14,31
+59,8,Euclidean,14,53
+59,9,Random Walk,71,924
+59,9,Euclidean,71,914
+60,0,Random Walk,33,264
+60,0,Euclidean,33,402
+60,1,Random Walk,4,1231
+60,1,Euclidean,4,3
+60,2,Random Walk,34,675
+60,2,Euclidean,34,477
+60,3,Random Walk,28,361
+60,3,Euclidean,28,95
+60,4,Random Walk,31,486
+60,4,Euclidean,31,364
+60,5,Random Walk,31,398
+60,5,Euclidean,31,70
+60,6,Random Walk,37,170
+60,6,Euclidean,37,516
+60,7,Random Walk,32,1091
+60,7,Euclidean,32,1105
+60,8,Random Walk,38,853
+60,8,Euclidean,38,1003
+60,9,Random Walk,11,1164
+60,9,Euclidean,11,356
+61,0,Random Walk,24,77
+61,0,Euclidean,24,113
+61,1,Random Walk,51,292
+61,1,Euclidean,51,540
+61,2,Random Walk,24,705
+61,2,Euclidean,24,265
+61,3,Random Walk,29,356
+61,3,Euclidean,29,412
+61,4,Random Walk,43,652
+61,4,Euclidean,43,968
+61,5,Random Walk,19,38
+61,5,Euclidean,19,22
+61,6,Random Walk,50,745
+61,6,Euclidean,50,585
+61,7,Random Walk,21,310
+61,7,Euclidean,21,784
+61,8,Random Walk,46,1023
+61,8,Euclidean,46,847
+61,9,Random Walk,33,286
+61,9,Euclidean,33,862
+62,0,Random Walk,59,428
+62,0,Euclidean,59,956
+62,1,Random Walk,44,847
+62,1,Euclidean,44,365
+62,2,Random Walk,20,473
+62,2,Euclidean,20,55
+62,3,Random Walk,28,669
+62,3,Euclidean,28,511
+62,4,Random Walk,16,847
+62,4,Euclidean,16,779
+62,5,Random Walk,24,1019
+62,5,Euclidean,24,1203
+62,6,Random Walk,48,1057
+62,6,Euclidean,48,615
+62,7,Random Walk,51,164
+62,7,Euclidean,51,308
+62,8,Random Walk,67,460
+62,8,Euclidean,67,460
+62,9,Random Walk,58,405
+62,9,Euclidean,58,395
+63,0,Random Walk,28,477
+63,0,Euclidean,28,121
+63,1,Random Walk,63,472
+63,1,Euclidean,63,986
+63,2,Random Walk,21,1034
+63,2,Euclidean,21,52
+63,3,Random Walk,49,550
+63,3,Euclidean,49,986
+63,4,Random Walk,9,18
+63,4,Euclidean,9,848
+63,5,Random Walk,30,135
+63,5,Euclidean,30,151
+63,6,Random Walk,33,262
+63,6,Euclidean,33,1088
+63,7,Random Walk,36,91
+63,7,Euclidean,36,1155
+63,8,Random Walk,23,188
+63,8,Euclidean,23,160
+63,9,Random Walk,53,584
+63,9,Euclidean,53,898
+64,0,Random Walk,28,585
+64,0,Euclidean,28,223
+64,1,Random Walk,48,801
+64,1,Euclidean,48,1107
+64,2,Random Walk,51,466
+64,2,Euclidean,51,850
+64,3,Random Walk,58,571
+64,3,Euclidean,58,321
+64,4,Random Walk,59,960
+64,4,Euclidean,59,1094
+64,5,Random Walk,41,654
+64,5,Euclidean,41,860
+64,6,Random Walk,59,462
+64,6,Euclidean,59,704
+64,7,Random Walk,40,361
+64,7,Euclidean,40,1093
+64,8,Random Walk,15,150
+64,8,Euclidean,15,336
+64,9,Random Walk,26,67
+64,9,Euclidean,26,157
+65,0,Random Walk,47,468
+65,0,Euclidean,47,1136
+65,1,Random Walk,6,1235
+65,1,Euclidean,6,13
+65,2,Random Walk,29,656
+65,2,Euclidean,29,98
+65,3,Random Walk,46,353
+65,3,Euclidean,46,305
+65,4,Random Walk,31,1120
+65,4,Euclidean,31,236
+65,5,Random Walk,54,491
+65,5,Euclidean,54,373
+65,6,Random Walk,27,922
+65,6,Euclidean,27,310
+65,7,Random Walk,8,155
+65,7,Euclidean,8,189
+65,8,Random Walk,36,983
+65,8,Euclidean,36,241
+65,9,Random Walk,53,808
+65,9,Euclidean,53,380
+66,0,Random Walk,27,594
+66,0,Euclidean,27,136
+66,1,Random Walk,23,202
+66,1,Euclidean,23,358
+66,2,Random Walk,22,131
+66,2,Euclidean,22,1183
+66,3,Random Walk,35,696
+66,3,Euclidean,35,1090
+66,4,Random Walk,20,495
+66,4,Euclidean,20,1093
+66,5,Random Walk,61,322
+66,5,Euclidean,61,830
+66,6,Random Walk,24,635
+66,6,Euclidean,24,1037
+66,7,Random Walk,11,938
+66,7,Euclidean,11,164
+66,8,Random Walk,48,1055
+66,8,Euclidean,48,309
+66,9,Random Walk,10,1199
+66,9,Euclidean,10,27
+67,0,Random Walk,19,432
+67,0,Euclidean,19,418
+67,1,Random Walk,17,1180
+67,1,Euclidean,17,254
+67,2,Random Walk,76,891
+67,2,Euclidean,76,427
+67,3,Random Walk,58,529
+67,3,Euclidean,58,967
+67,4,Random Walk,41,488
+67,4,Euclidean,41,524
+67,5,Random Walk,44,787
+67,5,Euclidean,44,901
+67,6,Random Walk,18,49
+67,6,Euclidean,18,265
+67,7,Random Walk,48,617
+67,7,Euclidean,48,709
+67,8,Random Walk,57,858
+67,8,Euclidean,57,702
+67,9,Random Walk,40,223
+67,9,Euclidean,40,303
+68,0,Random Walk,43,714
+68,0,Euclidean,43,314
+68,1,Random Walk,53,746
+68,1,Euclidean,53,1106
+68,2,Random Walk,47,920
+68,2,Euclidean,47,468
+68,3,Random Walk,35,182
+68,3,Euclidean,35,318
+68,4,Random Walk,37,860
+68,4,Euclidean,37,176
+68,5,Random Walk,22,531
+68,5,Euclidean,22,787
+68,6,Random Walk,30,131
+68,6,Euclidean,30,161
+68,7,Random Walk,47,298
+68,7,Euclidean,47,458
+68,8,Random Walk,20,1155
+68,8,Euclidean,20,65
+68,9,Random Walk,36,321
+68,9,Euclidean,36,939
+69,0,Random Walk,14,1121
+69,0,Euclidean,14,105
+69,1,Random Walk,4,1243
+69,1,Euclidean,4,5
+69,2,Random Walk,38,505
+69,2,Euclidean,38,1005
+69,3,Random Walk,43,970
+69,3,Euclidean,43,1186
+69,4,Random Walk,15,1186
+69,4,Euclidean,15,62
+69,5,Random Walk,35,858
+69,5,Euclidean,35,530
+69,6,Random Walk,34,997
+69,6,Euclidean,34,409
+69,7,Random Walk,41,654
+69,7,Euclidean,41,1118
+69,8,Random Walk,10,1155
+69,8,Euclidean,10,217
+69,9,Random Walk,52,843
+69,9,Euclidean,52,1001
+70,0,Random Walk,21,92
+70,0,Euclidean,21,96
+70,1,Random Walk,6,1217
+70,1,Euclidean,6,41
+70,2,Random Walk,26,251
+70,2,Euclidean,26,807
+70,3,Random Walk,25,1078
+70,3,Euclidean,25,1094
+70,4,Random Walk,5,6
+70,4,Euclidean,5,1244
+70,5,Random Walk,17,668
+70,5,Euclidean,17,664
+70,6,Random Walk,11,442
+70,6,Euclidean,11,446
+70,7,Random Walk,41,1110
+70,7,Euclidean,41,948
+70,8,Random Walk,20,235
+70,8,Euclidean,20,1009
+70,9,Random Walk,55,776
+70,9,Euclidean,55,1092
+71,0,Random Walk,20,1085
+71,0,Euclidean,20,311
+71,1,Random Walk,19,1022
+71,1,Euclidean,19,164
+71,2,Random Walk,9,30
+71,2,Euclidean,9,54
+71,3,Random Walk,21,426
+71,3,Euclidean,21,538
+71,4,Random Walk,51,926
+71,4,Euclidean,51,1136
+71,5,Random Walk,28,873
+71,5,Euclidean,28,1157
+71,6,Random Walk,26,433
+71,6,Euclidean,26,633
+71,7,Random Walk,36,253
+71,7,Euclidean,36,439
+71,8,Random Walk,64,857
+71,8,Euclidean,64,953
+71,9,Random Walk,45,246
+71,9,Euclidean,45,460
+72,0,Random Walk,38,853
+72,0,Euclidean,38,1009
+72,1,Random Walk,66,567
+72,1,Euclidean,66,759
+72,2,Random Walk,33,732
+72,2,Euclidean,33,374
+72,3,Random Walk,24,325
+72,3,Euclidean,24,1047
+72,4,Random Walk,30,347
+72,4,Euclidean,30,415
+72,5,Random Walk,47,246
+72,5,Euclidean,47,574
+72,6,Random Walk,31,92
+72,6,Euclidean,31,602
+72,7,Random Walk,44,557
+72,7,Euclidean,44,549
+72,8,Random Walk,31,1034
+72,8,Euclidean,31,1174
+72,9,Random Walk,18,267
+72,9,Euclidean,18,511
+73,0,Random Walk,32,891
+73,0,Euclidean,32,913
+73,1,Random Walk,28,1133
+73,1,Euclidean,28,793
+73,2,Random Walk,26,963
+73,2,Euclidean,26,1031
+73,3,Random Walk,39,736
+73,3,Euclidean,39,484
+73,4,Random Walk,46,583
+73,4,Euclidean,46,1161
+73,5,Random Walk,29,866
+73,5,Euclidean,29,330
+73,6,Random Walk,45,294
+73,6,Euclidean,45,700
+73,7,Random Walk,10,1223
+73,7,Euclidean,10,127
+73,8,Random Walk,33,926
+73,8,Euclidean,33,336
+73,9,Random Walk,15,1040
+73,9,Euclidean,15,660
+74,0,Random Walk,48,743
+74,0,Euclidean,48,1025
+74,1,Random Walk,17,130
+74,1,Euclidean,17,94
+74,2,Random Walk,47,634
+74,2,Euclidean,47,732
+74,3,Random Walk,55,546
+74,3,Euclidean,55,406
+74,4,Random Walk,14,1093
+74,4,Euclidean,14,1203
+74,5,Random Walk,13,1096
+74,5,Euclidean,13,106
+74,6,Random Walk,52,335
+74,6,Euclidean,52,887
+74,7,Random Walk,52,777
+74,7,Euclidean,52,777
+74,8,Random Walk,16,297
+74,8,Euclidean,16,875
+74,9,Random Walk,23,1162
+74,9,Euclidean,23,964
+75,0,Random Walk,31,1024
+75,0,Euclidean,31,416
+75,1,Random Walk,49,988
+75,1,Euclidean,49,348
+75,2,Random Walk,34,201
+75,2,Euclidean,34,339
+75,3,Random Walk,25,1020
+75,3,Euclidean,25,308
+75,4,Random Walk,41,968
+75,4,Euclidean,41,262
+75,5,Random Walk,10,315
+75,5,Euclidean,10,885
+75,6,Random Walk,34,457
+75,6,Euclidean,34,275
+75,7,Random Walk,36,809
+75,7,Euclidean,36,1071
+75,8,Random Walk,59,692
+75,8,Euclidean,59,944
+75,9,Random Walk,38,871
+75,9,Euclidean,38,809
+76,0,Random Walk,28,1123
+76,0,Euclidean,28,491
+76,1,Random Walk,9,22
+76,1,Euclidean,9,80
+76,2,Random Walk,41,912
+76,2,Euclidean,41,388
+76,3,Random Walk,53,1052
+76,3,Euclidean,53,240
+76,4,Random Walk,40,419
+76,4,Euclidean,40,1159
+76,5,Random Walk,38,915
+76,5,Euclidean,38,997
+76,6,Random Walk,8,19
+76,6,Euclidean,8,19
+76,7,Random Walk,18,315
+76,7,Euclidean,18,349
+76,8,Random Walk,43,288
+76,8,Euclidean,43,384
+76,9,Random Walk,46,793
+76,9,Euclidean,46,583
+77,0,Random Walk,47,738
+77,0,Euclidean,47,388
+77,1,Random Walk,37,954
+77,1,Euclidean,37,840
+77,2,Random Walk,27,780
+77,2,Euclidean,27,344
+77,3,Random Walk,42,639
+77,3,Euclidean,42,653
+77,4,Random Walk,57,456
+77,4,Euclidean,57,1060
+77,5,Random Walk,28,577
+77,5,Euclidean,28,511
+77,6,Random Walk,64,295
+77,6,Euclidean,64,643
+77,7,Random Walk,20,123
+77,7,Euclidean,20,1077
+77,8,Random Walk,56,959
+77,8,Euclidean,56,719
+77,9,Random Walk,24,1055
+77,9,Euclidean,24,349
+78,0,Random Walk,21,54
+78,0,Euclidean,21,114
+78,1,Random Walk,19,40
+78,1,Euclidean,19,100
+78,2,Random Walk,23,40
+78,2,Euclidean,23,156
+78,3,Random Walk,28,309
+78,3,Euclidean,28,349
+78,4,Random Walk,33,910
+78,4,Euclidean,33,830
+78,5,Random Walk,36,627
+78,5,Euclidean,36,363
+78,6,Random Walk,40,141
+78,6,Euclidean,40,497
+78,7,Random Walk,10,1205
+78,7,Euclidean,10,1197
+78,8,Random Walk,22,215
+78,8,Euclidean,22,457
+78,9,Random Walk,45,996
+78,9,Euclidean,45,922
+79,0,Random Walk,45,880
+79,0,Euclidean,45,986
+79,1,Random Walk,34,1111
+79,1,Euclidean,34,117
+79,2,Random Walk,27,122
+79,2,Euclidean,27,100
+79,3,Random Walk,41,132
+79,3,Euclidean,41,266
+79,4,Random Walk,45,672
+79,4,Euclidean,45,392
+79,5,Random Walk,40,1075
+79,5,Euclidean,40,313
+79,6,Random Walk,1,0
+79,6,Euclidean,1,0
+79,7,Random Walk,16,977
+79,7,Euclidean,16,1191
+79,8,Random Walk,35,1056
+79,8,Euclidean,35,1052
+79,9,Random Walk,34,577
+79,9,Euclidean,34,889
+80,0,Random Walk,4,3
+80,0,Euclidean,4,5
+80,1,Random Walk,28,599
+80,1,Euclidean,28,147
+80,2,Random Walk,47,338
+80,2,Euclidean,47,900
+80,3,Random Walk,43,860
+80,3,Euclidean,43,1032
+80,4,Random Walk,46,1041
+80,4,Euclidean,46,651
+80,5,Random Walk,34,1145
+80,5,Euclidean,34,105
+80,6,Random Walk,21,1208
+80,6,Euclidean,21,1208
+80,7,Random Walk,25,1132
+80,7,Euclidean,25,242
+80,8,Random Walk,13,38
+80,8,Euclidean,13,58
+80,9,Random Walk,38,657
+80,9,Euclidean,38,563
+81,0,Random Walk,12,39
+81,0,Euclidean,12,23
+81,1,Random Walk,26,563
+81,1,Euclidean,26,1061
+81,2,Random Walk,41,684
+81,2,Euclidean,41,222
+81,3,Random Walk,50,189
+81,3,Euclidean,50,187
+81,4,Random Walk,47,408
+81,4,Euclidean,47,702
+81,5,Random Walk,32,509
+81,5,Euclidean,32,469
+81,6,Random Walk,15,1110
+81,6,Euclidean,15,1082
+81,7,Random Walk,37,976
+81,7,Euclidean,37,338
+81,8,Random Walk,29,1086
+81,8,Euclidean,29,624
+81,9,Random Walk,42,743
+81,9,Euclidean,42,703
+82,0,Random Walk,31,244
+82,0,Euclidean,31,492
+82,1,Random Walk,58,537
+82,1,Euclidean,58,1053
+82,2,Random Walk,40,809
+82,2,Euclidean,40,935
+82,3,Random Walk,27,186
+82,3,Euclidean,27,788
+82,4,Random Walk,38,211
+82,4,Euclidean,38,475
+82,5,Random Walk,35,1164
+82,5,Euclidean,35,1196
+82,6,Random Walk,46,561
+82,6,Euclidean,46,853
+82,7,Random Walk,32,61
+82,7,Euclidean,32,311
+82,8,Random Walk,24,635
+82,8,Euclidean,24,137
+82,9,Random Walk,24,1139
+82,9,Euclidean,24,91
+83,0,Random Walk,47,306
+83,0,Euclidean,47,934
+83,1,Random Walk,22,663
+83,1,Euclidean,22,441
+83,2,Random Walk,25,602
+83,2,Euclidean,25,1160
+83,3,Random Walk,27,94
+83,3,Euclidean,27,196
+83,4,Random Walk,28,691
+83,4,Euclidean,28,477
+83,5,Random Walk,32,317
+83,5,Euclidean,32,607
+83,6,Random Walk,32,891
+83,6,Euclidean,32,815
+83,7,Random Walk,34,163
+83,7,Euclidean,34,801
+83,8,Random Walk,65,472
+83,8,Euclidean,65,958
+83,9,Random Walk,31,884
+83,9,Euclidean,31,1058
+84,0,Random Walk,17,42
+84,0,Euclidean,17,50
+84,1,Random Walk,45,338
+84,1,Euclidean,45,1084
+84,2,Random Walk,56,743
+84,2,Euclidean,56,819
+84,3,Random Walk,10,29
+84,3,Euclidean,10,27
+84,4,Random Walk,11,106
+84,4,Euclidean,11,118
+84,5,Random Walk,18,537
+84,5,Euclidean,18,1001
+84,6,Random Walk,25,744
+84,6,Euclidean,25,816
+84,7,Random Walk,22,943
+84,7,Euclidean,22,457
+84,8,Random Walk,7,110
+84,8,Euclidean,7,1096
+84,9,Random Walk,51,596
+84,9,Euclidean,51,538
+85,0,Random Walk,42,359
+85,0,Euclidean,42,867
+85,1,Random Walk,29,1160
+85,1,Euclidean,29,912
+85,2,Random Walk,7,1060
+85,2,Euclidean,7,1140
+85,3,Random Walk,34,347
+85,3,Euclidean,34,323
+85,4,Random Walk,37,260
+85,4,Euclidean,37,254
+85,5,Random Walk,17,156
+85,5,Euclidean,17,1076
+85,6,Random Walk,12,55
+85,6,Euclidean,12,899
+85,7,Random Walk,23,160
+85,7,Euclidean,23,264
+85,8,Random Walk,10,79
+85,8,Euclidean,10,79
+85,9,Random Walk,37,534
+85,9,Euclidean,37,718
+86,0,Random Walk,30,653
+86,0,Euclidean,30,391
+86,1,Random Walk,49,980
+86,1,Euclidean,49,304
+86,2,Random Walk,37,926
+86,2,Euclidean,37,864
+86,3,Random Walk,67,786
+86,3,Euclidean,67,230
+86,4,Random Walk,29,212
+86,4,Euclidean,29,1062
+86,5,Random Walk,24,339
+86,5,Euclidean,24,459
+86,6,Random Walk,10,1209
+86,6,Euclidean,10,1197
+86,7,Random Walk,55,494
+86,7,Euclidean,55,708
+86,8,Random Walk,35,584
+86,8,Euclidean,35,716
+86,9,Random Walk,21,916
+86,9,Euclidean,21,884
+87,0,Random Walk,4,15
+87,0,Euclidean,4,41
+87,1,Random Walk,54,903
+87,1,Euclidean,54,989
+87,2,Random Walk,47,742
+87,2,Euclidean,47,1048
+87,3,Random Walk,31,1078
+87,3,Euclidean,31,654
+87,4,Random Walk,48,581
+87,4,Euclidean,48,1191
+87,5,Random Walk,14,1001
+87,5,Euclidean,14,279
+87,6,Random Walk,37,320
+87,6,Euclidean,37,446
+87,7,Random Walk,53,244
+87,7,Euclidean,53,944
+87,8,Random Walk,28,55
+87,8,Euclidean,28,217
+87,9,Random Walk,42,325
+87,9,Euclidean,42,365
+88,0,Random Walk,65,258
+88,0,Euclidean,65,832
+88,1,Random Walk,32,1037
+88,1,Euclidean,32,1091
+88,2,Random Walk,18,195
+88,2,Euclidean,18,713
+88,3,Random Walk,21,152
+88,3,Euclidean,21,180
+88,4,Random Walk,49,770
+88,4,Euclidean,49,710
+88,5,Random Walk,37,1018
+88,5,Euclidean,37,518
+88,6,Random Walk,55,1100
+88,6,Euclidean,55,568
+88,7,Random Walk,29,1160
+88,7,Euclidean,29,94
+88,8,Random Walk,63,870
+88,8,Euclidean,63,462
+88,9,Random Walk,55,574
+88,9,Euclidean,55,842
+89,0,Random Walk,15,1226
+89,0,Euclidean,15,386
+89,1,Random Walk,44,357
+89,1,Euclidean,44,377
+89,2,Random Walk,35,986
+89,2,Euclidean,35,1008
+89,3,Random Walk,36,439
+89,3,Euclidean,36,489
+89,4,Random Walk,14,69
+89,4,Euclidean,14,133
+89,5,Random Walk,21,754
+89,5,Euclidean,21,770
+89,6,Random Walk,32,79
+89,6,Euclidean,32,1177
+89,7,Random Walk,35,400
+89,7,Euclidean,35,1136
+89,8,Random Walk,36,621
+89,8,Euclidean,36,553
+89,9,Random Walk,46,253
+89,9,Euclidean,46,611
+90,0,Random Walk,21,178
+90,0,Euclidean,21,244
+90,1,Random Walk,34,229
+90,1,Euclidean,34,955
+90,2,Random Walk,53,366
+90,2,Euclidean,53,402
+90,3,Random Walk,65,390
+90,3,Euclidean,65,404
+90,4,Random Walk,27,886
+90,4,Euclidean,27,330
+90,5,Random Walk,31,226
+90,5,Euclidean,31,1094
+90,6,Random Walk,49,836
+90,6,Euclidean,49,850
+90,7,Random Walk,22,1029
+90,7,Euclidean,22,197
+90,8,Random Walk,53,694
+90,8,Euclidean,53,330
+90,9,Random Walk,43,928
+90,9,Euclidean,43,838
+91,0,Random Walk,34,751
+91,0,Euclidean,34,763
+91,1,Random Walk,28,113
+91,1,Euclidean,28,523
+91,2,Random Walk,8,1171
+91,2,Euclidean,8,1157
+91,3,Random Walk,10,15
+91,3,Euclidean,10,1063
+91,4,Random Walk,55,866
+91,4,Euclidean,55,1012
+91,5,Random Walk,17,108
+91,5,Euclidean,17,168
+91,6,Random Walk,44,165
+91,6,Euclidean,44,447
+91,7,Random Walk,58,751
+91,7,Euclidean,58,737
+91,8,Random Walk,49,640
+91,8,Euclidean,49,160
+91,9,Random Walk,20,125
+91,9,Euclidean,20,115
+92,0,Random Walk,16,63
+92,0,Euclidean,16,85
+92,1,Random Walk,24,733
+92,1,Euclidean,24,749
+92,2,Random Walk,48,785
+92,2,Euclidean,48,535
+92,3,Random Walk,30,1101
+92,3,Euclidean,30,127
+92,4,Random Walk,44,1067
+92,4,Euclidean,44,903
+92,5,Random Walk,29,204
+92,5,Euclidean,29,410
+92,6,Random Walk,29,650
+92,6,Euclidean,29,858
+92,7,Random Walk,48,663
+92,7,Euclidean,48,457
+92,8,Random Walk,47,590
+92,8,Euclidean,47,790
+92,9,Random Walk,21,62
+92,9,Euclidean,21,1200
+93,0,Random Walk,55,434
+93,0,Euclidean,55,964
+93,1,Random Walk,14,769
+93,1,Euclidean,14,373
+93,2,Random Walk,71,890
+93,2,Euclidean,71,884
+93,3,Random Walk,60,897
+93,3,Euclidean,60,663
+93,4,Random Walk,21,66
+93,4,Euclidean,21,98
+93,5,Random Walk,47,532
+93,5,Euclidean,47,986
+93,6,Random Walk,66,491
+93,6,Euclidean,66,831
+93,7,Random Walk,37,150
+93,7,Euclidean,37,1178
+93,8,Random Walk,52,479
+93,8,Euclidean,52,425
+93,9,Random Walk,53,846
+93,9,Euclidean,53,978
+94,0,Random Walk,22,159
+94,0,Euclidean,22,201
+94,1,Random Walk,23,44
+94,1,Euclidean,23,188
+94,2,Random Walk,51,282
+94,2,Euclidean,51,302
+94,3,Random Walk,49,564
+94,3,Euclidean,49,744
+94,4,Random Walk,4,101
+94,4,Euclidean,4,101
+94,5,Random Walk,48,233
+94,5,Euclidean,48,1079
+94,6,Random Walk,24,1141
+94,6,Euclidean,24,47
+94,7,Random Walk,43,710
+94,7,Euclidean,43,644
+94,8,Random Walk,34,287
+94,8,Euclidean,34,665
+94,9,Random Walk,31,1068
+94,9,Euclidean,31,222
+95,0,Random Walk,15,332
+95,0,Euclidean,15,394
+95,1,Random Walk,39,1024
+95,1,Euclidean,39,998
+95,2,Random Walk,40,577
+95,2,Euclidean,40,357
+95,3,Random Walk,44,907
+95,3,Euclidean,44,465
+95,4,Random Walk,21,52
+95,4,Euclidean,21,48
+95,5,Random Walk,29,208
+95,5,Euclidean,29,370
+95,6,Random Walk,35,296
+95,6,Euclidean,35,870
+95,7,Random Walk,15,64
+95,7,Euclidean,15,1184
+95,8,Random Walk,42,525
+95,8,Euclidean,42,599
+95,9,Random Walk,74,611
+95,9,Euclidean,74,721
+96,0,Random Walk,57,768
+96,0,Euclidean,57,878
+96,1,Random Walk,10,1217
+96,1,Euclidean,10,507
+96,2,Random Walk,38,589
+96,2,Euclidean,38,783
+96,3,Random Walk,26,661
+96,3,Euclidean,26,675
+96,4,Random Walk,14,47
+96,4,Euclidean,14,61
+96,5,Random Walk,61,616
+96,5,Euclidean,61,880
+96,6,Random Walk,37,874
+96,6,Euclidean,37,208
+96,7,Random Walk,28,303
+96,7,Euclidean,28,447
+96,8,Random Walk,31,904
+96,8,Euclidean,31,878
+96,9,Random Walk,15,48
+96,9,Euclidean,15,30
+97,0,Random Walk,14,19
+97,0,Euclidean,14,27
+97,1,Random Walk,43,580
+97,1,Euclidean,43,772
+97,2,Random Walk,29,264
+97,2,Euclidean,29,390
+97,3,Random Walk,53,238
+97,3,Euclidean,53,622
+97,4,Random Walk,30,487
+97,4,Euclidean,30,689
+97,5,Random Walk,40,741
+97,5,Euclidean,40,1093
+97,6,Random Walk,38,959
+97,6,Euclidean,38,1181
+97,7,Random Walk,45,916
+97,7,Euclidean,45,708
+97,8,Random Walk,53,256
+97,8,Euclidean,53,938
+97,9,Random Walk,35,688
+97,9,Euclidean,35,724
+98,0,Random Walk,56,541
+98,0,Euclidean,56,535
+98,1,Random Walk,49,248
+98,1,Euclidean,49,980
+98,2,Random Walk,50,447
+98,2,Euclidean,50,759
+98,3,Random Walk,24,211
+98,3,Euclidean,24,837
+98,4,Random Walk,53,252
+98,4,Euclidean,53,228
+98,5,Random Walk,34,183
+98,5,Euclidean,34,697
+98,6,Random Walk,19,156
+98,6,Euclidean,19,862
+98,7,Random Walk,4,3
+98,7,Euclidean,4,1213
+98,8,Random Walk,12,83
+98,8,Euclidean,12,197
+98,9,Random Walk,41,704
+98,9,Euclidean,41,596
+99,0,Random Walk,72,775
+99,0,Euclidean,72,479
+99,1,Random Walk,21,910
+99,1,Euclidean,21,728
+99,2,Random Walk,40,549
+99,2,Euclidean,40,447
+99,3,Random Walk,10,1225
+99,3,Euclidean,10,1239
+99,4,Random Walk,19,342
+99,4,Euclidean,19,62
+99,5,Random Walk,66,851
+99,5,Euclidean,66,671
+99,6,Random Walk,9,64
+99,6,Euclidean,9,1108
+99,7,Random Walk,29,162
+99,7,Euclidean,29,654
+99,8,Random Walk,39,328
+99,8,Euclidean,39,324
+99,9,Random Walk,9,1188
+99,9,Euclidean,9,52
