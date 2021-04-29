@@ -239,7 +239,7 @@ public class mainController implements Initializable {
     //******************************************************************************************************************
     // THESE METHODS ARE NOT CAPABLE OF PRODUCING VISUALS - ONLY USE FOR BATCH TESTING PURPOSES
     public void runCompleteTest() {
-        int mazeIterationLimit = 100;
+        int mazeIterationLimit = 20;
         int startFinishIterationLimit = 10;
         // this method is used to compute comparison data for use in analyzing heuristics
         // create new maze

@@ -178,7 +178,7 @@ public class aiAgent {
     private gridGraph.cell computeBestMove(ArrayList<gridGraph.cell> inputCellList, gridGraph.cell goalCell) {
         // this method takes the current possible moves list, and the goal cell as inputs, and determines which cell
         // should be used next in the path
-        int outputIndex = 0;
+        gridGraph.cell outputCell = inputCellList.get(0);
         double shortestDistance = euclideanDistance(inputCellList.get(0), goalCell);
         // find the index of the cell with the shortest straight line distance to goal
         for (int listIndex = 1; listIndex < inputCellList.size(); listIndex++) {
@@ -186,10 +186,10 @@ public class aiAgent {
             double currentDistance = euclideanDistance(inputCellList.get(listIndex), goalCell);
             if (currentDistance < shortestDistance) {
                 shortestDistance = currentDistance;
-                outputIndex = listIndex;
+                outputCell = inputCellList.get(listIndex);
             }
         }
-        return inputCellList.get(outputIndex);
+        return outputCell;
     }
     private gridGraph.cell randomNextMove(ArrayList<gridGraph.cell> inputCellList) {
         Random rand = new Random();
@@ -200,10 +200,9 @@ public class aiAgent {
         // this method takes two cells as input and computes the straight line distance between them
         int oneXpos = cellOne.getX();
         int oneYpos = cellOne.getY();
-        int twoXpos = cellOne.getX();
-        int twoYpos = cellOne.getY();
-        double radicand = Math.pow((twoXpos - oneXpos),2) + Math.pow((twoYpos - oneYpos),2);
-        return Math.sqrt(radicand);
+        int twoXpos = cellTwo.getX();
+        int twoYpos = cellTwo.getY();
+        return Math.sqrt(Math.pow((twoXpos - oneXpos),2) + Math.pow((twoYpos - oneYpos),2));
     }
     public class miniAgent {
         // this is a mini agent object that is spawned when doing the look ahead
