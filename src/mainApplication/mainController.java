@@ -149,7 +149,7 @@ public class mainController implements Initializable {
             canvasGc.clearRect(0, 0, centerCanvas.getWidth(), centerCanvas.getHeight());
             // this method invokes the AI agent that will solve the maze
             aiAgent solver = new aiAgent(this.startCell, this.goalCell);
-            solver.solveMaze();
+            solver.secondLookAhead();
             this.solutionPath = solver.getSolutionPath();
             updateNotificationArea("The maze has been solved");
             for (int visitIndex = 0; visitIndex < this.mazePath.size(); visitIndex++) {
@@ -239,7 +239,7 @@ public class mainController implements Initializable {
     //******************************************************************************************************************
     // THESE METHODS ARE NOT CAPABLE OF PRODUCING VISUALS - ONLY USE FOR BATCH TESTING PURPOSES
     public void runCompleteTest() {
-        int mazeIterationLimit = 20;
+        int mazeIterationLimit = 5000;
         int startFinishIterationLimit = 10;
         // this method is used to compute comparison data for use in analyzing heuristics
         // create new maze
@@ -288,6 +288,18 @@ public class mainController implements Initializable {
                 this.solutionPath.clear();
                 graph.clearVisits();
                 // run Euclidean with Look Ahead Solver
+                aiAgent lookAheadSolver = new aiAgent(this.startCell, this.goalCell);
+                lookAheadSolver.secondLookAhead();
+                this.solutionPath = lookAheadSolver.getSolutionPath();
+                int visitedCells_Look_Ahead = graph.getTotalVisits();
+                int pathCells_Look_Ahead = solutionPath.size();
+                try {
+                    writeResultsToFile(i,j,"Look Ahead",pathCells_Look_Ahead, visitedCells_Look_Ahead);
+                } catch (IOException ex) {
+                    ex.printStackTrace();
+                }
+                this.solutionPath.clear();
+                graph.clearVisits();
             }
             updateNotificationArea("Maze Number: " + i);
         }

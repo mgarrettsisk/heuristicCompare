@@ -203,11 +203,16 @@ public class gridGraph {
             // increases the visit count by 1 every time the method is called
             this.visitCount++;
         }
+        protected void unVisit() {
+            // decreases the visit count by 1 every time the method is called
+            this.visitCount--;
+        }
         protected int getVisitCount() {
             // returns the visit count when called
             return this.visitCount;
         }
         protected void resetVisits() {
+            // resets visit count to zero
             this.visitCount = 0;
         }
         protected void setTopNeighbor(cell c) {

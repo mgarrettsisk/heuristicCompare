@@ -32,3 +32,21 @@ Random Walk
 	3) Repeat until goal state is found
 
 
+Mini Agent Pseudocode:
+
+Starting from possible move cell
+	Determine where mini agent can move to
+	Compute which of these cells is "best" per Euclidean distance
+	Move to that cell
+	Repeat as many times as the look ahead value is set to
+
+
+Start with possible moves array from main agent
+	for each possible move, until the depth count is reached (or possible moves is empty)
+		add 1 to the depth count
+		determine possible moves from current cell
+		calculate the best among these possible moves
+		move to the next best cell
+		repeat
+
+mini agent returns a list of cells traversed and the actual agent appends them to the solutionPathStack
